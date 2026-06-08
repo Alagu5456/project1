@@ -1,0 +1,16 @@
+brand,age,condition,usage_hours,original_price,resale_price
+Samsung,1,Good,500,25000,18000
+Samsung,2,Good,900,25000,16000
+Samsung,3,Average,1500,25000,12000
+Apple,1,Good,400,60000,45000
+Apple,2,Good,800,60000,40000
+Apple,3,Average,1400,60000,32000
+Redmi,1,Good,600,18000,13000
+Redmi,2,Average,1200,18000,9000
+Realme,1,Good,550,20000,14000
+Realme,2,Average,1000,20000,11000
+Oppo,3,Poor,1800,22000,8000
+Vivo,2,Good,850,21000,14000
+OnePlus,1,Good,450,40000,30000
+OnePlus,2,Average,1100,40000,25000
+OnePlus,3,Poor,1900,40000,18000

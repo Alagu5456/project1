@@ -1,0 +1,2001 @@
+brand,category,age,condition,usage_hours,original_price,resale_price
+Mahindra,Cars,10,New,14600,687451,128332
+Dell,Electronics,5,Poor,7300,134902,13511
+Barbie,Kids,8,Good,11680,10033,1003
+Urban Ladder,Furniture,6,Like New,8760,24752,2623
+N/A,Books,1,Like New,1460,16836,9154
+HP,Electronics,5,Poor,7300,100935,10093
+Nike,Fashion,3,Good,4380,1292,176
+N/A,Services,3,Like New,4380,3309,601
+HotWheels,Kids,0,Like New,0,2905,2540
+Acer,Electronics,9,Good,13140,98198,9819
+FisherPrice,Kids,5,Fair,7300,14519,1451
+N/A,Houses & Apartments,1,Good,1460,15746,6307
+Vivo,Mobiles,9,Fair,13140,109028,10902
+Urban Ladder,Furniture,6,Good,8760,27508,2750
+Generic,Other,4,Good,5840,15350,1535
+Wilson,Sports,8,Fair,11680,18762,1876
+N/A,Houses & Apartments,10,Good,14600,8962,896
+Urban Ladder,Furniture,8,Fair,11680,47542,4754
+Lego,Kids,4,Good,5840,4950,495
+Yamaha,Bikes,6,Good,8760,237152,68198
+Acer,Electronics,0,Good,0,82110,53731
+N/A,Books,5,New,7300,10738,1073
+N/A,Books,0,Good,0,19942,13728
+H&M,Fashion,7,Fair,10220,15923,1592
+Levis,Fashion,0,Good,0,16286,10781
+TVs,Bikes,9,Fair,13140,85861,9442
+N/A,Services,5,Fair,7300,19002,1900
+Nivia,Sports,5,Poor,7300,4635,463
+Honda,Cars,10,New,14600,1909571,338353
+FisherPrice,Kids,7,New,10220,8452,845
+HotWheels,Kids,0,Fair,0,10643,5705
+Bajaj,Bikes,3,Like New,4380,146889,82119
+H&M,Fashion,8,Good,11680,7489,748
+H&M,Fashion,7,Good,10220,13779,1377
+Honda,Bikes,0,Fair,0,271407,146540
+Generic,Other,1,Good,1460,12279,5290
+Generic,Other,0,Good,0,17802,12394
+Apple,Mobiles,7,Good,10220,109471,10947
+Yamaha,Bikes,3,Like New,4380,127300,68116
+LG,Electronics,1,Good,1460,63236,38533
+Wilson,Sports,3,Like New,4380,3994,743
+Nilkamal,Furniture,1,Fair,1460,8776,3043
+FisherPrice,Kids,0,Fair,0,17705,8900
+N/A,Services,6,New,8760,15177,1517
+N/A,Books,0,Good,0,8230,5783
+Wilson,Sports,8,Fair,11680,17008,1700
+Generic,Other,7,New,10220,4076,407
+Godrej,Furniture,5,Like New,7300,37719,5316
+N/A,Services,10,Good,14600,8318,831
+Hyundai,Cars,9,Like New,13140,1341196,269547
+N/A,Services,9,Poor,13140,4569,456
+Nilkamal,Furniture,10,Good,14600,37950,3795
+Samsung,Electronics,9,Good,13140,161738,16173
+Barbie,Kids,1,Poor,1460,11237,2151
+H&M,Fashion,3,Fair,4380,7260,741
+N/A,Services,2,Like New,2920,9078,2565
+Samsung,Electronics,0,Fair,0,121193,56829
+Nivia,Sports,7,Poor,10220,11567,1156
+Yamaha,Bikes,9,New,13140,158147,37536
+Lego,Kids,10,Good,14600,2551,255
+Hero,Bikes,7,Good,10220,77519,15759
+Decathlon,Sports,1,Like New,1460,5522,2950
+Bajaj,Bikes,0,Good,0,234849,161821
+Honda,Cars,8,Fair,11680,1451973,194179
+N/A,Services,2,Good,2920,5212,1264
+Yamaha,Bikes,2,Like New,2920,219820,131326
+Samsung,Electronics,3,New,4380,138261,61310
+Yonex,Sports,9,Poor,13140,4145,414
+Realme,Mobiles,4,Like New,5840,139825,40171
+Toyota,Cars,3,Fair,4380,1858597,581280
+Apple,Mobiles,5,Fair,7300,99230,12284
+N/A,Houses & Apartments,0,Poor,0,16277,5343
+Hero,Bikes,10,Good,14600,203106,25992
+N/A,Houses & Apartments,6,Good,8760,13718,1371
+Nivia,Sports,10,Good,14600,8994,899
+Bajaj,Bikes,0,Like New,0,163557,131932
+Yonex,Sports,9,Good,13140,1435,143
+Samsung,Mobiles,7,Good,10220,125852,12670
+N/A,Houses & Apartments,6,Good,8760,2927,292
+Wilson,Sports,1,Good,1460,15834,6103
+N/A,Houses & Apartments,10,Poor,14600,7208,720
+N/A,Services,9,Good,13140,14392,1439
+Apple,Electronics,9,Fair,13140,174813,17481
+Vivo,Mobiles,0,Good,0,54015,38697
+Mahindra,Cars,6,New,8760,1865606,682053
+Decathlon,Sports,2,Good,2920,19514,4729
+Honda,Bikes,4,Like New,5840,231329,100196
+Mahindra,Cars,6,Fair,8760,1769496,356847
+Bajaj,Bikes,4,Fair,5840,275686,76275
+Decathlon,Sports,6,New,8760,19391,1939
+Generic,Other,2,Like New,2920,4409,1270
+Nivia,Sports,6,Like New,8760,16703,1670
+Puma,Fashion,0,New,0,7729,6728
+Hero,Bikes,4,Like New,5840,226201,92592
+Zara,Fashion,0,Like New,0,12399,9876
+Nike,Fashion,5,Like New,7300,10986,1098
+HotWheels,Kids,7,Like New,10220,10466,1046
+N/A,Services,1,Good,1460,14434,6605
+Asus,Electronics,10,Like New,14600,36771,3677
+N/A,Services,3,Good,4380,18875,2786
+Google,Mobiles,6,Fair,8760,78654,7865
+FisherPrice,Kids,0,Poor,0,4430,1447
+Generic,Other,8,Fair,11680,6893,689
+Generic,Other,3,Like New,4380,14907,2839
+N/A,Houses & Apartments,9,Like New,13140,15205,1520
+Google,Mobiles,10,Good,14600,134956,13495
+Barbie,Kids,4,Good,5840,18545,1854
+HotWheels,Kids,9,Good,13140,10753,1075
+Generic,Other,7,New,10220,8321,832
+N/A,Services,1,New,1460,19745,10742
+N/A,Books,9,Good,13140,14027,1402
+N/A,Houses & Apartments,7,Fair,10220,1700,170
+Generic,Other,4,Poor,5840,3799,379
+N/A,Houses & Apartments,2,Good,2920,6632,1551
+Acer,Electronics,0,Like New,0,116068,108300
+Urban Ladder,Furniture,0,Fair,0,9300,5055
+N/A,Services,1,Fair,1460,13294,3599
+Nothing,Mobiles,10,Good,14600,61454,6145
+Nivia,Sports,0,Good,0,11151,8507
+Decathlon,Sports,8,Like New,11680,2028,202
+Tata,Cars,3,Good,4380,553809,258681
+Decathlon,Sports,9,Good,13140,8212,821
+N/A,Services,0,Fair,0,7144,3381
+HotWheels,Kids,4,Like New,5840,19421,2241
+Decathlon,Sports,6,Poor,8760,8805,880
+N/A,Books,7,Good,10220,17993,1799
+Generic,Other,2,Good,2920,6253,1563
+Local,Furniture,6,Good,8760,8931,893
+N/A,Books,3,Good,4380,1613,241
+N/A,Houses & Apartments,0,Poor,0,2614,853
+Nilkamal,Furniture,9,Good,13140,49293,4929
+N/A,Books,3,Good,4380,14093,2199
+N/A,Services,7,Good,10220,9101,910
+Honda,Cars,1,Good,1460,811948,481747
+N/A,Services,7,Like New,10220,14185,1418
+Godrej,Furniture,3,Fair,4380,26050,4252
+Apple,Mobiles,4,Fair,5840,85161,13002
+N/A,Services,1,Like New,1460,12228,6237
+Samsung,Mobiles,0,Good,0,20193,13109
+N/A,Houses & Apartments,3,Good,4380,13636,2032
+Kia,Cars,0,Good,0,1709448,1114714
+Yonex,Sports,3,Good,4380,10505,1467
+Tata,Cars,9,Good,13140,1091425,182664
+N/A,Books,4,Good,5840,2044,204
+HotWheels,Kids,2,Good,2920,5004,1198
+N/A,Houses & Apartments,10,Good,14600,19368,1936
+LG,Electronics,9,Fair,13140,189867,18986
+Nothing,Mobiles,8,Good,11680,67750,6775
+Honda,Bikes,3,Like New,4380,211748,105203
+LG,Electronics,5,New,7300,171877,51145
+Xiaomi,Mobiles,1,Fair,1460,50190,16967
+Nivia,Sports,3,New,4380,14938,2995
+N/A,Books,4,Good,5840,17526,1752
+TVs,Bikes,9,Fair,13140,255601,28751
+Nilkamal,Furniture,5,Good,7300,25971,2856
+N/A,Books,4,Good,5840,15028,1502
+N/A,Houses & Apartments,10,Good,14600,7493,749
+N/A,Books,6,New,8760,15999,1599
+Generic,Other,1,Good,1460,3372,1335
+Barbie,Kids,4,Good,5840,18343,1834
+Lego,Kids,2,Good,2920,1026,265
+Sony,Electronics,5,Fair,7300,187275,32007
+Nothing,Mobiles,3,Like New,4380,98998,37261
+Redmi,Mobiles,5,Poor,7300,34504,3450
+N/A,Houses & Apartments,3,Fair,4380,10702,1106
+N/A,Houses & Apartments,5,Fair,7300,15242,1524
+Yamaha,Bikes,4,Good,5840,294862,112606
+Decathlon,Sports,10,Like New,14600,5047,504
+Nike,Fashion,2,Good,2920,5128,1252
+Decathlon,Sports,7,Poor,10220,13361,1336
+HotWheels,Kids,3,Poor,4380,13066,1306
+Zara,Fashion,9,Good,13140,8014,801
+FisherPrice,Kids,0,Good,0,14898,9553
+HotWheels,Kids,5,Good,7300,12262,1226
+Wilson,Sports,3,Fair,4380,6521,715
+Redmi,Mobiles,7,Like New,10220,73666,8286
+Generic,Other,7,Fair,10220,11974,1197
+Local,Furniture,6,Fair,8760,41336,4133
+Xiaomi,Mobiles,9,Good,13140,74924,7492
+Apple,Electronics,6,Good,8760,188411,37160
+Bajaj,Bikes,8,Good,11680,231894,41069
+Apple,Electronics,5,Like New,7300,92563,26952
+Bajaj,Bikes,8,Like New,11680,133318,32278
+N/A,Books,1,Good,1460,6825,2844
+Acer,Electronics,6,Like New,8760,143456,29854
+Yonex,Sports,4,Good,5840,17632,1763
+Google,Mobiles,0,Fair,0,14107,7014
+Xiaomi,Mobiles,10,New,14600,86143,8614
+Apple,Electronics,10,Good,14600,131346,13134
+Yonex,Sports,4,Fair,5840,10240,1024
+Generic,Other,1,Good,1460,8221,3256
+Mahindra,Cars,8,Good,11680,715298,146683
+N/A,Houses & Apartments,6,Like New,8760,13865,1386
+Barbie,Kids,9,Good,13140,13931,1393
+N/A,Books,6,Poor,8760,6574,657
+FisherPrice,Kids,1,Good,1460,14768,5669
+Honda,Cars,4,Like New,5840,1097971,460735
+Puma,Fashion,10,Good,14600,12529,1252
+Bajaj,Bikes,4,Like New,5840,203653,87249
+H&M,Fashion,1,Good,1460,3434,1526
+N/A,Houses & Apartments,10,New,14600,1448,144
+N/A,Houses & Apartments,10,Poor,14600,9086,908
+IKEA,Furniture,7,Good,10220,36534,3653
+Godrej,Furniture,1,New,1460,31102,20904
+Honda,Cars,8,Fair,11680,1182242,156505
+Sony,Electronics,0,Fair,0,136178,65013
+N/A,Services,4,New,5840,8348,1063
+IKEA,Furniture,8,Good,11680,23340,2334
+N/A,Services,10,Fair,14600,13731,1373
+N/A,Books,4,Fair,5840,12338,1233
+Barbie,Kids,9,Good,13140,17865,1786
+Hero,Bikes,3,Fair,4380,236395,71646
+Honda,Bikes,6,Poor,8760,218613,24035
+Nivia,Sports,2,Like New,2920,12970,4186
+N/A,Houses & Apartments,1,New,1460,13934,8029
+Tata,Cars,8,Good,11680,1787053,317833
+Levis,Fashion,2,Good,2920,3508,850
+Yamaha,Bikes,1,Poor,1460,292095,70123
+Adidas,Fashion,3,Like New,4380,12318,2452
+N/A,Services,4,Good,5840,5326,532
+N/A,Houses & Apartments,9,Like New,13140,18075,1807
+Wilson,Sports,1,New,1460,4522,2660
+Barbie,Kids,6,Like New,8760,8826,882
+Hyundai,Cars,9,Good,13140,1382465,215373
+Yonex,Sports,9,Good,13140,6533,653
+Redmi,Mobiles,3,Like New,4380,28959,9424
+OnePlus,Mobiles,7,Good,10220,99131,10119
+Puma,Fashion,5,Good,7300,9334,933
+TVs,Bikes,0,Good,0,114386,82860
+N/A,Services,3,Good,4380,6249,938
+Acer,Electronics,0,Like New,0,184398,166161
+Godrej,Furniture,0,Like New,0,17717,14845
+HotWheels,Kids,1,Fair,1460,12123,3688
+Apple,Mobiles,10,Like New,14600,95648,9564
+Levis,Fashion,2,Good,2920,3428,824
+Nilkamal,Furniture,10,Good,14600,46723,4672
+Nike,Fashion,9,Good,13140,18354,1835
+Google,Mobiles,6,Like New,8760,20651,3068
+N/A,Houses & Apartments,9,Fair,13140,13291,1329
+Acer,Electronics,6,Fair,8760,153209,21563
+Barbie,Kids,4,Fair,5840,8008,800
+Vivo,Mobiles,6,Good,8760,20428,2549
+Xiaomi,Mobiles,1,Good,1460,50543,28823
+Toyota,Cars,0,Like New,0,889172,827998
+N/A,Services,3,Good,4380,15769,2155
+LG,Electronics,9,Good,13140,187314,18731
+Hyundai,Cars,7,New,10220,1007827,287771
+Acer,Electronics,0,Poor,0,28310,8908
+N/A,Services,4,Like New,5840,13516,1413
+Local,Furniture,0,Good,0,13379,9384
+Nivia,Sports,6,Poor,8760,2315,231
+N/A,Houses & Apartments,5,Poor,7300,10172,1017
+Generic,Other,10,Fair,14600,19530,1953
+N/A,Houses & Apartments,3,Like New,4380,14380,2770
+Hyundai,Cars,10,Good,14600,953768,129366
+N/A,Houses & Apartments,9,Good,13140,3304,330
+Nilkamal,Furniture,0,Good,0,37606,24190
+Hero,Bikes,7,Poor,10220,101450,10145
+Zara,Fashion,8,Like New,11680,6133,613
+Nilkamal,Furniture,7,Good,10220,10185,1018
+Godrej,Furniture,2,New,2920,37623,19086
+N/A,Services,8,Good,11680,1659,165
+N/A,Houses & Apartments,7,Good,10220,16287,1628
+Apple,Mobiles,7,Like New,10220,148707,18259
+Puma,Fashion,4,Like New,5840,7540,824
+Generic,Other,2,Fair,2920,5031,912
+N/A,Services,1,Poor,1460,3818,620
+Kia,Cars,2,Like New,2920,1577207,894506
+Oppo,Mobiles,4,Good,5840,111483,23027
+Redmi,Mobiles,5,Good,7300,64289,9693
+Godrej,Furniture,2,Like New,2920,16570,6877
+LG,Electronics,5,Good,7300,112217,26933
+Lenovo,Electronics,7,Good,10220,165423,24645
+N/A,Services,10,Fair,14600,14904,1490
+Decathlon,Sports,1,Fair,1460,10144,2914
+Generic,Other,8,Good,11680,13393,1339
+Wilson,Sports,9,Good,13140,3914,391
+Xiaomi,Mobiles,1,Good,1460,49544,27449
+Lego,Kids,0,New,0,9504,8986
+Generic,Other,8,Good,11680,6021,602
+Generic,Other,8,Good,11680,6153,615
+N/A,Houses & Apartments,10,Good,14600,4527,452
+N/A,Books,7,Good,10220,2448,244
+N/A,Houses & Apartments,2,Fair,2920,15803,2937
+Zara,Fashion,2,Good,2920,13015,3280
+Tata,Cars,6,New,8760,1210590,416951
+Urban Ladder,Furniture,10,Poor,14600,14828,1482
+Local,Furniture,10,Fair,14600,29870,2987
+Mahindra,Cars,10,Like New,14600,958325,153435
+Generic,Other,4,New,5840,15262,1791
+N/A,Houses & Apartments,0,Good,0,16943,12395
+Oppo,Mobiles,6,New,8760,67763,10470
+Yamaha,Bikes,0,Like New,0,190939,163864
+N/A,Services,7,Poor,10220,4449,444
+N/A,Books,8,Good,11680,3571,357
+N/A,Houses & Apartments,2,Good,2920,1578,434
+OnePlus,Mobiles,2,Fair,2920,75400,19698
+HotWheels,Kids,7,Fair,10220,10313,1031
+Lego,Kids,1,Fair,1460,2992,885
+Generic,Other,6,Fair,8760,5039,503
+HotWheels,Kids,4,Good,5840,3343,334
+Tata,Cars,7,Like New,10220,1549897,435589
+Barbie,Kids,6,New,8760,13678,1367
+Royal Enfield,Bikes,2,Good,2920,83902,45878
+FisherPrice,Kids,0,Good,0,12816,8208
+Bajaj,Bikes,7,Good,10220,161466,38849
+Samsung,Electronics,5,Fair,7300,182533,27754
+Honda,Bikes,1,Poor,1460,172325,48245
+N/A,Houses & Apartments,7,New,10220,8095,809
+IKEA,Furniture,1,New,1460,14232,10214
+Honda,Cars,10,Good,14600,421444,59695
+Decathlon,Sports,0,Fair,0,7350,3908
+Generic,Other,3,Good,4380,11106,1670
+N/A,Books,3,Fair,4380,7284,737
+Generic,Other,9,Good,13140,1517,151
+Adidas,Fashion,2,Good,2920,16575,3820
+FisherPrice,Kids,4,Poor,5840,17687,1768
+Wilson,Sports,5,Good,7300,11899,1189
+Wilson,Sports,9,Good,13140,2036,203
+Royal Enfield,Bikes,0,Good,0,282652,180210
+Royal Enfield,Bikes,4,Good,5840,171914,67756
+Barbie,Kids,8,Good,11680,11842,1184
+Sony,Electronics,8,Fair,11680,103307,10330
+Tata,Cars,5,Good,7300,548057,174663
+TVs,Bikes,2,Like New,2920,94471,54608
+N/A,Books,2,Like New,2920,7559,2418
+Generic,Other,0,Good,0,16333,10614
+N/A,Houses & Apartments,5,Like New,7300,9628,962
+Generic,Other,1,Good,1460,11107,5032
+N/A,Houses & Apartments,10,Good,14600,12923,1292
+Nike,Fashion,3,Good,4380,12350,1844
+H&M,Fashion,8,Good,11680,14307,1430
+Puma,Fashion,2,Good,2920,11178,2567
+N/A,Books,5,Like New,7300,14121,1412
+Generic,Other,5,Poor,7300,4086,408
+HotWheels,Kids,7,Poor,10220,2111,211
+Yamaha,Bikes,8,Good,11680,174438,30626
+Yonex,Sports,6,Poor,8760,17612,1761
+Tata,Cars,5,Fair,7300,1416729,289466
+N/A,Services,6,Fair,8760,8987,898
+Levis,Fashion,7,Fair,10220,18275,1827
+Godrej,Furniture,4,Poor,5840,16738,1673
+Vivo,Mobiles,10,Good,14600,76985,7698
+Tata,Cars,8,Good,11680,1837762,373202
+Royal Enfield,Bikes,3,Poor,4380,88359,14785
+Apple,Electronics,9,Fair,13140,95945,9594
+N/A,Services,6,New,8760,13796,1379
+Lego,Kids,8,Like New,11680,4390,439
+HP,Electronics,0,Like New,0,165405,149448
+Decathlon,Sports,10,Good,14600,18665,1866
+HotWheels,Kids,7,Like New,10220,1844,184
+H&M,Fashion,9,Like New,13140,9011,901
+Godrej,Furniture,0,Fair,0,22052,11521
+Redmi,Mobiles,5,Fair,7300,39316,4277
+Barbie,Kids,10,Fair,14600,18054,1805
+Decathlon,Sports,9,New,13140,15053,1505
+Samsung,Electronics,7,Like New,10220,80256,14128
+Lego,Kids,2,New,2920,15485,5052
+HotWheels,Kids,2,Good,2920,15838,4078
+Godrej,Furniture,6,Good,8760,44356,4435
+Adidas,Fashion,2,Good,2920,7049,1675
+Royal Enfield,Bikes,9,Fair,13140,205520,22934
+Nothing,Mobiles,0,Good,0,95362,66393
+Maruti,Cars,8,Poor,11680,1016300,101630
+H&M,Fashion,3,Good,4380,5441,826
+H&M,Fashion,2,Fair,2920,13571,2293
+N/A,Houses & Apartments,4,Like New,5840,4527,466
+Oppo,Mobiles,8,Like New,11680,137022,13702
+Maruti,Cars,3,New,4380,557427,322960
+N/A,Services,3,Good,4380,18691,2661
+Toyota,Cars,0,Poor,0,1891024,546007
+Asus,Electronics,2,Fair,2920,20867,6997
+Honda,Bikes,2,Fair,2920,211705,78883
+Generic,Other,5,Poor,7300,2594,259
+H&M,Fashion,8,Good,11680,2576,257
+FisherPrice,Kids,10,Poor,14600,5621,562
+Generic,Other,4,Like New,5840,8057,934
+HotWheels,Kids,6,Good,8760,16143,1614
+HP,Electronics,3,Poor,4380,75502,11594
+Apple,Mobiles,10,New,14600,57452,5745
+Lego,Kids,3,Like New,4380,19488,3816
+Wilson,Sports,7,Like New,10220,4421,442
+Realme,Mobiles,8,Fair,11680,124278,12427
+Yamaha,Bikes,4,Like New,5840,90947,36402
+HotWheels,Kids,5,Good,7300,16838,1683
+Mahindra,Cars,4,Good,5840,1059945,403451
+Wilson,Sports,9,Poor,13140,2406,240
+N/A,Books,9,Good,13140,13732,1373
+Generic,Other,6,Good,8760,18583,1858
+N/A,Services,5,Like New,7300,7810,781
+Toyota,Cars,10,Like New,14600,1042036,184312
+N/A,Services,2,Like New,2920,7932,2611
+Acer,Electronics,2,Good,2920,97895,46745
+Urban Ladder,Furniture,9,New,13140,39515,3951
+Godrej,Furniture,3,Fair,4380,10785,1775
+N/A,Services,10,Good,14600,10028,1002
+IKEA,Furniture,4,Good,5840,12233,2051
+N/A,Services,3,Poor,4380,1464,146
+Lego,Kids,10,Fair,14600,14491,1449
+N/A,Houses & Apartments,6,Fair,8760,8759,875
+Generic,Other,7,Fair,10220,5347,534
+Generic,Other,0,Good,0,9435,7182
+Generic,Other,5,Good,7300,2015,201
+Samsung,Mobiles,9,Good,13140,114226,11422
+Godrej,Furniture,6,Good,8760,48376,4837
+Nilkamal,Furniture,8,Poor,11680,10547,1054
+Adidas,Fashion,9,Good,13140,7238,723
+H&M,Fashion,2,Fair,2920,16527,2844
+Generic,Other,7,New,10220,3572,357
+Apple,Electronics,4,Like New,5840,125442,44666
+Dell,Electronics,1,Like New,1460,171289,123091
+N/A,Books,2,Good,2920,10244,2487
+Acer,Electronics,9,Good,13140,83727,8372
+N/A,Houses & Apartments,8,Fair,11680,14388,1438
+N/A,Houses & Apartments,3,Like New,4380,4746,868
+Sony,Electronics,10,Poor,14600,165558,16555
+FisherPrice,Kids,3,Fair,4380,4642,486
+Puma,Fashion,0,Fair,0,15914,8140
+N/A,Books,8,Good,11680,15348,1534
+N/A,Houses & Apartments,6,Like New,8760,9610,961
+Royal Enfield,Bikes,10,Fair,14600,93840,9480
+Mahindra,Cars,0,Good,0,1710505,1245899
+Maruti,Cars,5,Like New,7300,1107271,406053
+Toyota,Cars,2,Fair,2920,977087,323936
+HP,Electronics,0,Fair,0,73732,34436
+Google,Mobiles,5,Good,7300,90142,13680
+Barbie,Kids,1,Good,1460,4744,1895
+Lego,Kids,8,Good,11680,19737,1973
+Wilson,Sports,8,Like New,11680,7541,754
+Zara,Fashion,1,Fair,1460,11777,3545
+Lego,Kids,6,Good,8760,1334,133
+N/A,Books,2,Fair,2920,12932,2496
+Godrej,Furniture,6,Good,8760,48844,4884
+Generic,Other,8,Fair,11680,14230,1423
+Lego,Kids,8,Good,11680,2751,275
+Honda,Cars,4,Fair,5840,1950111,516996
+N/A,Houses & Apartments,3,Like New,4380,8339,1642
+Samsung,Electronics,7,Good,10220,144410,19970
+Mahindra,Cars,3,Fair,4380,372694,119721
+Wilson,Sports,8,Fair,11680,3915,391
+N/A,Houses & Apartments,7,Like New,10220,2918,291
+Nike,Fashion,1,Good,1460,4117,1852
+Toyota,Cars,1,Good,1460,1166885,728639
+Royal Enfield,Bikes,1,Like New,1460,205101,152005
+Vivo,Mobiles,4,Good,5840,64851,15128
+Zara,Fashion,8,Good,11680,11867,1186
+N/A,Houses & Apartments,4,Like New,5840,3145,347
+N/A,Books,9,Fair,13140,9417,941
+Generic,Other,5,Good,7300,1380,138
+Barbie,Kids,6,Poor,8760,10650,1065
+Hyundai,Cars,8,Good,11680,1385394,249194
+N/A,Services,7,Fair,10220,6640,664
+Honda,Cars,9,Good,13140,1528459,232770
+Yamaha,Bikes,4,Good,5840,69742,26535
+N/A,Books,0,Fair,0,3145,1445
+Barbie,Kids,10,Fair,14600,15109,1510
+Barbie,Kids,1,Like New,1460,18401,8644
+Puma,Fashion,9,Poor,13140,16034,1603
+Wilson,Sports,3,Good,4380,17229,2604
+N/A,Houses & Apartments,0,Fair,0,8487,4413
+Hero,Bikes,3,Fair,4380,214426,69473
+Generic,Other,5,Fair,7300,5875,587
+Nivia,Sports,7,Like New,10220,16004,1600
+Samsung,Electronics,2,Good,2920,163775,67814
+Tata,Cars,0,Fair,0,1614159,762520
+H&M,Fashion,3,Fair,4380,15837,1795
+Godrej,Furniture,5,Good,7300,20887,2663
+HotWheels,Kids,3,Good,4380,7657,1255
+N/A,Books,7,Fair,10220,8014,801
+Barbie,Kids,1,Good,1460,7440,3265
+Zara,Fashion,5,Fair,7300,11507,1150
+Hero,Bikes,10,Fair,14600,227116,24406
+Mahindra,Cars,10,New,14600,568142,113293
+Royal Enfield,Bikes,8,Fair,11680,162373,22554
+Apple,Electronics,8,Fair,11680,96907,9690
+Hero,Bikes,2,Poor,2920,56475,12452
+Samsung,Mobiles,5,Fair,7300,33125,3544
+Lego,Kids,6,Fair,8760,18098,1809
+Asus,Electronics,6,Like New,8760,87281,18815
+N/A,Services,6,Like New,8760,18574,1857
+Decathlon,Sports,10,Poor,14600,2876,287
+N/A,Services,5,Good,7300,6891,689
+Lego,Kids,5,Like New,7300,7640,764
+Google,Mobiles,7,Good,10220,124827,12482
+N/A,Services,0,Fair,0,3598,1950
+Generic,Other,6,Like New,8760,15710,1571
+Generic,Other,9,Poor,13140,3508,350
+Generic,Other,10,Like New,14600,5781,578
+N/A,Books,9,Good,13140,15034,1503
+Honda,Bikes,5,Good,7300,182664,54776
+N/A,Books,3,Poor,4380,19287,1928
+Yamaha,Bikes,4,Good,5840,109784,37228
+Honda,Bikes,2,Poor,2920,228451,47318
+N/A,Houses & Apartments,5,New,7300,6292,629
+N/A,Books,6,Good,8760,9005,900
+N/A,Houses & Apartments,6,Good,8760,10185,1018
+N/A,Books,3,Good,4380,6704,1106
+Decathlon,Sports,6,Fair,8760,14922,1492
+H&M,Fashion,0,Poor,0,7383,2149
+Nothing,Mobiles,4,Fair,5840,34557,5358
+Tata,Cars,4,Good,5840,322514,112245
+Yonex,Sports,6,Good,8760,2724,272
+Wilson,Sports,6,Good,8760,16880,1688
+N/A,Houses & Apartments,8,New,11680,16990,1699
+N/A,Services,4,New,5840,8055,1077
+Levis,Fashion,1,Poor,1460,1761,311
+FisherPrice,Kids,6,Like New,8760,17629,1762
+Mahindra,Cars,3,Good,4380,818293,324733
+N/A,Houses & Apartments,4,Fair,5840,10095,1009
+Yamaha,Bikes,1,Poor,1460,142201,32729
+Nilkamal,Furniture,4,Fair,5840,49148,5477
+N/A,Houses & Apartments,8,Fair,11680,14231,1423
+N/A,Houses & Apartments,1,Like New,1460,18837,9318
+Godrej,Furniture,4,Fair,5840,41551,4886
+N/A,Houses & Apartments,7,Fair,10220,8883,888
+Levis,Fashion,7,Good,10220,19525,1952
+N/A,Services,8,Good,11680,12993,1299
+Barbie,Kids,2,New,2920,5460,1959
+N/A,Books,10,New,14600,18958,1895
+HotWheels,Kids,8,Like New,11680,1221,122
+N/A,Books,2,New,2920,9724,3051
+Lenovo,Electronics,9,Fair,13140,23817,2381
+Generic,Other,1,Good,1460,14734,6344
+Royal Enfield,Bikes,7,Good,10220,140400,34412
+N/A,Services,0,Good,0,17640,11302
+N/A,Services,3,Good,4380,7444,1165
+Yonex,Sports,10,Fair,14600,10620,1062
+Lenovo,Electronics,9,Like New,13140,199538,22241
+HotWheels,Kids,6,Fair,8760,3489,348
+N/A,Services,1,Like New,1460,17968,9825
+Tata,Cars,3,New,4380,1727117,1012029
+Sony,Electronics,4,Good,5840,40830,11268
+Nivia,Sports,0,New,0,1850,1600
+Realme,Mobiles,8,Good,11680,14123,1412
+Maruti,Cars,1,Like New,1460,1415886,1023856
+Wilson,Sports,1,Like New,1460,19586,10126
+Generic,Other,0,Good,0,18304,11999
+Apple,Electronics,2,Good,2920,170561,73992
+Hero,Bikes,3,New,4380,287755,154412
+Nivia,Sports,7,Fair,10220,8844,884
+LG,Electronics,8,Poor,11680,150966,15096
+TVs,Bikes,1,New,1460,155310,117132
+Puma,Fashion,4,Fair,5840,9646,964
+Barbie,Kids,5,Good,7300,18764,1876
+HotWheels,Kids,5,Good,7300,12652,1265
+Lenovo,Electronics,7,Good,10220,142575,21131
+Tata,Cars,3,Poor,4380,325336,57893
+Vivo,Mobiles,5,Like New,7300,142604,30516
+Urban Ladder,Furniture,6,Good,8760,11887,1188
+Lego,Kids,2,Good,2920,17867,4294
+Urban Ladder,Furniture,9,Like New,13140,22503,2250
+Local,Furniture,10,Fair,14600,13384,1338
+Tata,Cars,1,Like New,1460,561228,413369
+N/A,Houses & Apartments,9,Good,13140,7278,727
+Yamaha,Bikes,9,Fair,13140,299614,36746
+LG,Electronics,8,Good,11680,56741,6371
+Royal Enfield,Bikes,1,Poor,1460,147318,35246
+Tata,Cars,4,Good,5840,741892,247020
+Honda,Bikes,6,Good,8760,154699,36956
+N/A,Services,2,New,2920,5731,1984
+Vivo,Mobiles,0,Fair,0,59191,28627
+Wilson,Sports,9,Fair,13140,9278,927
+Dell,Electronics,7,Fair,10220,169395,18780
+Generic,Other,0,Like New,0,3741,3220
+Wilson,Sports,2,Good,2920,15914,3894
+N/A,Services,8,Fair,11680,16019,1601
+Google,Mobiles,2,Poor,2920,25980,4044
+N/A,Books,4,Fair,5840,13521,1352
+N/A,Services,2,Good,2920,10834,2859
+Acer,Electronics,10,Good,14600,110655,11065
+N/A,Houses & Apartments,4,New,5840,9048,1008
+OnePlus,Mobiles,8,Good,11680,99444,9944
+N/A,Houses & Apartments,2,New,2920,2138,714
+N/A,Books,5,Good,7300,7395,739
+Kia,Cars,8,Good,11680,1468229,297109
+Barbie,Kids,2,Good,2920,16049,3910
+Generic,Other,0,Good,0,12309,9189
+Generic,Other,0,Good,0,16946,12136
+Apple,Mobiles,7,Good,10220,58320,5832
+Oppo,Mobiles,7,Good,10220,87097,8709
+N/A,Books,3,Poor,4380,1165,116
+N/A,Houses & Apartments,8,Like New,11680,10187,1018
+Hero,Bikes,6,Good,8760,236658,65134
+Generic,Other,5,Good,7300,18331,1833
+Generic,Other,10,New,14600,19910,1991
+Nilkamal,Furniture,0,Good,0,42011,27707
+N/A,Books,3,New,4380,11572,2244
+Urban Ladder,Furniture,6,Good,8760,41474,4147
+TVs,Bikes,2,Fair,2920,128967,46843
+HotWheels,Kids,8,Poor,11680,11636,1163
+Royal Enfield,Bikes,10,Fair,14600,132054,13269
+Toyota,Cars,10,Poor,14600,1131798,113179
+Yamaha,Bikes,5,Good,7300,286767,95059
+Honda,Bikes,10,Good,14600,243460,34949
+Apple,Electronics,0,Like New,0,87693,72214
+N/A,Books,8,Poor,11680,10927,1092
+Nothing,Mobiles,5,Like New,7300,108774,22494
+TVs,Bikes,7,Good,10220,110894,23607
+N/A,Books,4,Good,5840,2601,260
+OnePlus,Mobiles,4,Good,5840,101473,21192
+Honda,Cars,0,New,0,499632,517168
+Yonex,Sports,10,Fair,14600,16344,1634
+IKEA,Furniture,3,Like New,4380,5172,1438
+N/A,Services,9,Fair,13140,5821,582
+OnePlus,Mobiles,1,Poor,1460,91502,19743
+Samsung,Electronics,7,Good,10220,147938,22559
+Dell,Electronics,7,Poor,10220,86212,8621
+Xiaomi,Mobiles,3,Like New,4380,22781,7889
+Honda,Bikes,4,New,5840,141337,77056
+Honda,Bikes,1,Good,1460,156798,91961
+N/A,Books,9,Good,13140,2566,256
+Local,Furniture,10,New,14600,40804,4080
+Generic,Other,8,Fair,11680,11212,1121
+Vivo,Mobiles,2,Like New,2920,104137,45700
+Urban Ladder,Furniture,8,Poor,11680,6864,686
+N/A,Services,8,Good,11680,9054,905
+N/A,Services,6,Fair,8760,19838,1983
+Samsung,Electronics,8,Fair,11680,189227,18922
+N/A,Houses & Apartments,8,Like New,11680,17284,1728
+N/A,Books,0,Good,0,15213,10383
+N/A,Houses & Apartments,10,Good,14600,6917,691
+N/A,Books,10,Like New,14600,4442,444
+Bajaj,Bikes,7,Like New,10220,82688,20506
+N/A,Books,1,Good,1460,13291,5849
+FisherPrice,Kids,9,Fair,13140,9332,933
+Generic,Other,2,Poor,2920,15731,1573
+Generic,Other,7,Like New,10220,17079,1707
+Wilson,Sports,10,Good,14600,16899,1689
+TVs,Bikes,5,Poor,7300,260075,37759
+Honda,Bikes,5,Fair,7300,195066,46508
+Adidas,Fashion,1,Fair,1460,7215,2350
+Adidas,Fashion,5,Good,7300,9839,983
+HotWheels,Kids,9,Fair,13140,6272,627
+FisherPrice,Kids,10,Fair,14600,5464,546
+N/A,Houses & Apartments,6,Like New,8760,9978,997
+Generic,Other,4,Like New,5840,19643,2294
+Generic,Other,3,Poor,4380,12653,1265
+Yamaha,Bikes,8,Like New,11680,66148,14481
+IKEA,Furniture,8,Poor,11680,24779,2477
+Generic,Other,0,Like New,0,5889,5363
+Sony,Electronics,9,Fair,13140,114813,11481
+Apple,Mobiles,0,Fair,0,38400,20973
+Generic,Other,7,Poor,10220,17796,1779
+Barbie,Kids,9,Good,13140,5948,594
+Local,Furniture,0,Fair,0,49710,26072
+N/A,Books,5,Good,7300,13561,1356
+N/A,Houses & Apartments,4,Fair,5840,3257,325
+Oppo,Mobiles,7,Good,10220,108960,10896
+Godrej,Furniture,0,Like New,0,20107,16508
+Asus,Electronics,7,Fair,10220,159331,16855
+Acer,Electronics,1,Good,1460,79305,46267
+FisherPrice,Kids,4,Like New,5840,18118,2122
+Wilson,Sports,5,New,7300,17911,1791
+Bajaj,Bikes,9,Like New,13140,95795,17571
+Nilkamal,Furniture,10,Like New,14600,47540,4754
+Bajaj,Bikes,8,Good,11680,247054,49591
+Levis,Fashion,2,New,2920,12575,4363
+Generic,Other,0,Good,0,6321,4108
+Lego,Kids,3,Good,4380,13507,2079
+Generic,Other,1,Good,1460,6630,2525
+Nivia,Sports,7,Poor,10220,5023,502
+OnePlus,Mobiles,4,Fair,5840,67291,9975
+Hero,Bikes,6,Good,8760,51768,13758
+OnePlus,Mobiles,2,Poor,2920,86192,15313
+Barbie,Kids,8,New,11680,1379,137
+Apple,Electronics,2,Good,2920,31549,13883
+Yonex,Sports,4,Good,5840,10616,1061
+Decathlon,Sports,5,Fair,7300,3735,373
+N/A,Services,1,Good,1460,16504,7322
+Samsung,Mobiles,2,Good,2920,44586,15837
+HotWheels,Kids,7,Fair,10220,5210,521
+N/A,Books,4,New,5840,18318,2187
+Generic,Other,6,New,8760,5378,537
+OnePlus,Mobiles,1,Like New,1460,135259,81720
+N/A,Services,0,Poor,0,14458,4012
+Redmi,Mobiles,7,New,10220,44738,5720
+Mahindra,Cars,3,Good,4380,1350846,552005
+Lego,Kids,6,Like New,8760,9176,917
+Generic,Other,5,Poor,7300,13929,1392
+N/A,Houses & Apartments,7,Fair,10220,16110,1611
+HotWheels,Kids,1,New,1460,10319,6464
+Generic,Other,1,Good,1460,5591,2167
+HP,Electronics,9,Good,13140,51356,5135
+Nilkamal,Furniture,0,Good,0,49911,32456
+Zara,Fashion,9,Good,13140,2354,235
+N/A,Houses & Apartments,3,Like New,4380,6530,1205
+Nilkamal,Furniture,9,Poor,13140,9554,955
+Yonex,Sports,6,Good,8760,13957,1395
+N/A,Books,1,Fair,1460,13792,3805
+N/A,Houses & Apartments,0,Poor,0,2125,618
+Dell,Electronics,2,Fair,2920,125689,38987
+Toyota,Cars,7,Like New,10220,985271,260076
+Levis,Fashion,1,Poor,1460,14619,2627
+Generic,Other,10,Good,14600,4580,458
+IKEA,Furniture,3,New,4380,19223,6120
+Asus,Electronics,0,Good,0,160354,109931
+N/A,Houses & Apartments,3,Fair,4380,11040,1135
+TVs,Bikes,4,Fair,5840,90415,21336
+N/A,Services,1,Fair,1460,14512,3923
+N/A,Books,10,Like New,14600,4792,479
+IKEA,Furniture,2,Good,2920,8775,3092
+Nothing,Mobiles,1,Good,1460,70152,36995
+Lego,Kids,2,Good,2920,14363,3380
+Zara,Fashion,5,Good,7300,11050,1105
+Nilkamal,Furniture,8,Fair,11680,30588,3058
+Mahindra,Cars,5,Fair,7300,762644,176898
+Honda,Bikes,7,Fair,10220,202373,32178
+Godrej,Furniture,1,Good,1460,41473,18941
+Bajaj,Bikes,2,Like New,2920,292441,169804
+Generic,Other,10,Like New,14600,2225,222
+FisherPrice,Kids,10,Good,14600,1915,191
+N/A,Services,7,Like New,10220,9519,951
+Generic,Other,9,Like New,13140,15691,1569
+N/A,Books,1,Like New,1460,2864,1553
+N/A,Books,10,Fair,14600,4316,431
+LG,Electronics,7,Fair,10220,139753,16086
+Lenovo,Electronics,3,Good,4380,106938,35574
+Generic,Other,2,Good,2920,3726,946
+N/A,Services,8,Good,11680,3198,319
+Nike,Fashion,0,Good,0,18020,11883
+N/A,Services,4,Fair,5840,18472,1847
+Acer,Electronics,5,Good,7300,150920,33096
+Decathlon,Sports,6,Good,8760,19131,1913
+Sony,Electronics,6,Good,8760,158721,31691
+Nilkamal,Furniture,0,Good,0,10992,7837
+N/A,Books,6,Like New,8760,15316,1531
+N/A,Services,5,New,7300,15362,1536
+N/A,Houses & Apartments,9,Good,13140,8585,858
+Generic,Other,2,Good,2920,3632,990
+Puma,Fashion,0,Good,0,13157,9828
+Realme,Mobiles,4,Like New,5840,33847,9574
+Maruti,Cars,8,Fair,11680,1992139,267826
+Generic,Other,5,Like New,7300,10544,1054
+Nivia,Sports,10,Good,14600,4899,489
+Decathlon,Sports,6,Good,8760,11076,1107
+N/A,Services,6,Poor,8760,12334,1233
+Godrej,Furniture,6,Fair,8760,14359,1435
+Levis,Fashion,4,Like New,5840,18942,2106
+TVs,Bikes,7,Poor,10220,79013,7901
+Bajaj,Bikes,4,Good,5840,174767,58909
+Nivia,Sports,6,Good,8760,13092,1309
+Local,Furniture,5,Like New,7300,34031,4465
+Generic,Other,2,Like New,2920,19694,6407
+Samsung,Electronics,9,Poor,13140,57641,5764
+Generic,Other,3,Good,4380,15582,2150
+N/A,Services,7,Good,10220,10546,1054
+Apple,Electronics,5,Good,7300,137937,31347
+Toyota,Cars,9,Good,13140,330376,54258
+N/A,Books,9,Good,13140,16819,1681
+Yamaha,Bikes,8,Fair,11680,63174,8062
+N/A,Books,0,Good,0,16834,11870
+Yonex,Sports,0,Like New,0,7265,5759
+H&M,Fashion,4,Like New,5840,3934,451
+N/A,Services,4,Good,5840,17106,1710
+Levis,Fashion,6,Like New,8760,8294,829
+Nike,Fashion,9,Good,13140,6964,696
+Lego,Kids,6,New,8760,3801,380
+Local,Furniture,8,Good,11680,40311,4031
+Kia,Cars,10,Good,14600,1968791,273512
+Generic,Other,1,New,1460,19753,12302
+N/A,Houses & Apartments,5,New,7300,2915,291
+Google,Mobiles,9,Good,13140,72606,7260
+Mahindra,Cars,10,Good,14600,1122866,151715
+Nothing,Mobiles,6,Poor,8760,75616,7561
+Tata,Cars,9,Fair,13140,399753,49626
+Nike,Fashion,6,New,8760,4525,452
+Lego,Kids,5,Good,7300,15443,1544
+N/A,Books,5,New,7300,13138,1313
+Yamaha,Bikes,8,Fair,11680,173242,21404
+Zara,Fashion,0,Good,0,10473,7257
+Maruti,Cars,2,Good,2920,1907208,1046356
+Generic,Other,7,Like New,10220,4501,450
+Xiaomi,Mobiles,9,Good,13140,113317,11331
+Samsung,Electronics,5,Fair,7300,142305,23186
+N/A,Houses & Apartments,4,Good,5840,13076,1307
+N/A,Services,0,Good,0,2033,1387
+N/A,Books,6,Good,8760,5254,525
+Adidas,Fashion,9,Like New,13140,16962,1696
+Vivo,Mobiles,8,Poor,11680,87363,8736
+N/A,Books,8,Poor,11680,2242,224
+Bajaj,Bikes,9,Like New,13140,87498,17821
+Realme,Mobiles,0,Fair,0,57166,25781
+Nike,Fashion,5,New,7300,5640,564
+Yonex,Sports,7,New,10220,10440,1044
+Generic,Other,8,Fair,11680,2954,295
+N/A,Houses & Apartments,5,Good,7300,9880,988
+N/A,Books,7,Like New,10220,5000,500
+Barbie,Kids,4,Poor,5840,10960,1096
+Nilkamal,Furniture,7,Good,10220,32066,3206
+Honda,Bikes,8,Good,11680,63208,11118
+Realme,Mobiles,6,Fair,8760,114036,11403
+Acer,Electronics,9,New,13140,148332,17398
+Generic,Other,5,Poor,7300,10483,1048
+N/A,Services,0,Fair,0,19222,9167
+Zara,Fashion,5,New,7300,2133,213
+Generic,Other,6,Good,8760,16599,1659
+Adidas,Fashion,4,New,5840,13868,1850
+Decathlon,Sports,1,Fair,1460,12644,3635
+N/A,Books,1,Poor,1460,11948,1953
+N/A,Services,8,New,11680,1751,175
+Royal Enfield,Bikes,5,Good,7300,293161,99088
+Honda,Cars,10,Fair,14600,1471180,157090
+FisherPrice,Kids,6,Fair,8760,8059,805
+N/A,Houses & Apartments,8,Good,11680,2905,290
+Realme,Mobiles,0,Fair,0,92961,48911
+Nike,Fashion,5,New,7300,15430,1543
+FisherPrice,Kids,7,Fair,10220,1577,157
+N/A,Books,4,Good,5840,18082,1808
+Hero,Bikes,5,Good,7300,87730,25603
+N/A,Books,0,Good,0,16342,11444
+Acer,Electronics,1,New,1460,168543,121738
+N/A,Books,7,Fair,10220,6629,662
+TVs,Bikes,4,Good,5840,248353,98331
+Apple,Mobiles,4,Good,5840,69129,14829
+Hyundai,Cars,6,Fair,8760,509325,104634
+Realme,Mobiles,9,Good,13140,41283,4128
+Dell,Electronics,8,Good,11680,147860,16501
+TVs,Bikes,4,Good,5840,271361,108896
+N/A,Services,1,Poor,1460,1343,223
+IKEA,Furniture,3,Good,4380,48292,10481
+Sony,Electronics,0,Good,0,163541,122594
+N/A,Houses & Apartments,5,New,7300,6871,687
+Generic,Other,1,Good,1460,11094,4736
+Mahindra,Cars,7,Fair,10220,1409221,222941
+HP,Electronics,3,Like New,4380,111031,48798
+Generic,Other,1,Fair,1460,4692,1380
+Hyundai,Cars,5,New,7300,916002,380558
+Kia,Cars,2,New,2920,669956,418726
+N/A,Books,10,New,14600,16275,1627
+Adidas,Fashion,6,Poor,8760,4792,479
+Generic,Other,2,Fair,2920,19130,3125
+N/A,Services,6,Like New,8760,17375,1737
+Hyundai,Cars,3,Good,4380,986591,395283
+Urban Ladder,Furniture,6,Good,8760,31196,3119
+Decathlon,Sports,2,Good,2920,16862,4540
+Puma,Fashion,3,Like New,4380,1719,345
+Yamaha,Bikes,5,Good,7300,72405,21254
+N/A,Houses & Apartments,2,Good,2920,11746,2799
+Generic,Other,2,Good,2920,10977,2596
+N/A,Books,3,Good,4380,13031,1778
+Generic,Other,2,New,2920,2495,867
+Lenovo,Electronics,6,Fair,8760,140662,17405
+N/A,Houses & Apartments,8,Fair,11680,8406,840
+Nike,Fashion,6,Fair,8760,10372,1037
+Puma,Fashion,4,Good,5840,12929,1292
+N/A,Books,0,Fair,0,16854,8313
+Honda,Bikes,4,Fair,5840,292237,70792
+Nilkamal,Furniture,3,Poor,4380,7766,776
+N/A,Houses & Apartments,3,Like New,4380,12923,2525
+Barbie,Kids,10,Like New,14600,13536,1353
+N/A,Books,9,Good,13140,5812,581
+Oppo,Mobiles,9,Fair,13140,52364,5236
+TVs,Bikes,2,Good,2920,244053,112165
+Wilson,Sports,6,Like New,8760,12683,1268
+Levis,Fashion,2,Good,2920,15477,3596
+H&M,Fashion,5,Fair,7300,13480,1348
+N/A,Services,3,Like New,4380,17575,3520
+Honda,Bikes,8,Good,11680,176958,35997
+Generic,Other,0,Fair,0,9625,5148
+N/A,Services,4,Good,5840,16961,1696
+H&M,Fashion,9,Good,13140,2480,248
+Generic,Other,7,Good,10220,6230,623
+HP,Electronics,10,Like New,14600,126424,12642
+Zara,Fashion,1,Fair,1460,4180,1297
+Asus,Electronics,10,Good,14600,114704,11470
+IKEA,Furniture,4,Good,5840,37320,5982
+N/A,Books,7,Like New,10220,14023,1402
+Vivo,Mobiles,6,Like New,8760,81258,13421
+Generic,Other,1,Like New,1460,4539,2085
+Lenovo,Electronics,0,Good,0,65591,49010
+Tata,Cars,4,New,5840,1116876,541447
+Yonex,Sports,8,Fair,11680,12438,1243
+Xiaomi,Mobiles,2,Good,2920,33167,13451
+Generic,Other,2,Poor,2920,4309,430
+Generic,Other,9,Fair,13140,12549,1254
+N/A,Houses & Apartments,6,New,8760,1637,163
+Barbie,Kids,9,Like New,13140,13119,1311
+Royal Enfield,Bikes,2,Fair,2920,163664,55320
+N/A,Books,1,Fair,1460,18894,5834
+Puma,Fashion,5,New,7300,2538,253
+Generic,Other,10,New,14600,12321,1232
+Generic,Other,9,Good,13140,11664,1166
+Godrej,Furniture,9,Like New,13140,34143,3414
+Yamaha,Bikes,2,Good,2920,242818,134826
+N/A,Services,8,Good,11680,4115,411
+Hyundai,Cars,10,New,14600,642482,121784
+N/A,Services,10,New,14600,12947,1294
+Nothing,Mobiles,5,Fair,7300,106378,12921
+Vivo,Mobiles,6,Fair,8760,11352,1135
+Wilson,Sports,2,Good,2920,16789,4612
+Nivia,Sports,4,Good,5840,13140,1314
+N/A,Houses & Apartments,10,Good,14600,3476,347
+Generic,Other,8,Like New,11680,14251,1425
+N/A,Books,2,Good,2920,8492,1926
+Generic,Other,0,Fair,0,6163,3123
+Yamaha,Bikes,0,Good,0,78772,59823
+N/A,Services,2,New,2920,5195,1915
+Hero,Bikes,3,Good,4380,145762,66226
+Generic,Other,6,New,8760,3262,326
+Lego,Kids,5,Like New,7300,1769,176
+Honda,Bikes,5,Fair,7300,76748,15728
+N/A,Houses & Apartments,1,Like New,1460,4965,2634
+Realme,Mobiles,8,New,11680,53405,5340
+Nike,Fashion,3,Like New,4380,9151,1528
+Barbie,Kids,9,Good,13140,2739,273
+Realme,Mobiles,6,Good,8760,147677,17912
+Puma,Fashion,8,New,11680,17305,1730
+N/A,Houses & Apartments,6,Good,8760,8308,830
+Toyota,Cars,8,Poor,11680,789959,78995
+N/A,Houses & Apartments,0,Good,0,3787,2847
+LG,Electronics,2,Like New,2920,31310,15987
+Acer,Electronics,0,Like New,0,163345,145643
+Godrej,Furniture,1,Good,1460,36917,18291
+HotWheels,Kids,10,Good,14600,14824,1482
+Bajaj,Bikes,3,Poor,4380,237336,47790
+Generic,Other,6,Like New,8760,10538,1053
+HP,Electronics,2,Fair,2920,129135,38895
+Nilkamal,Furniture,5,Good,7300,8659,1025
+Generic,Other,1,Good,1460,4088,1836
+Apple,Mobiles,4,Good,5840,52841,12777
+N/A,Services,7,Poor,10220,3691,369
+Google,Mobiles,6,Like New,8760,123603,18307
+N/A,Books,9,Good,13140,19537,1953
+Honda,Bikes,9,Like New,13140,225395,45311
+N/A,Books,1,Good,1460,8528,3461
+Bajaj,Bikes,3,Good,4380,98597,45561
+Barbie,Kids,8,Fair,11680,15751,1575
+Maruti,Cars,0,Good,0,1919102,1222587
+N/A,Houses & Apartments,6,Fair,8760,4397,439
+Generic,Other,4,New,5840,5335,693
+Nilkamal,Furniture,6,Fair,8760,45193,4519
+Nike,Fashion,6,Fair,8760,1020,102
+Mahindra,Cars,8,Fair,11680,1956331,249519
+N/A,Services,6,Good,8760,19983,1998
+N/A,Books,5,New,7300,3750,375
+Samsung,Electronics,10,Poor,14600,179117,17911
+Mahindra,Cars,9,Fair,13140,903141,108683
+Apple,Mobiles,9,Like New,13140,60225,6022
+N/A,Services,5,Good,7300,8530,853
+Levis,Fashion,3,Poor,4380,16031,1603
+N/A,Houses & Apartments,3,Like New,4380,4367,859
+N/A,Books,5,Good,7300,16175,1617
+N/A,Books,9,Fair,13140,7724,772
+Sony,Electronics,9,New,13140,179969,21880
+Generic,Other,8,Good,11680,12203,1220
+HotWheels,Kids,0,Poor,0,19733,5852
+Urban Ladder,Furniture,10,Like New,14600,33720,3372
+N/A,Services,7,Good,10220,1666,166
+N/A,Houses & Apartments,5,Good,7300,13630,1363
+Mahindra,Cars,7,Good,10220,1032564,231864
+Nivia,Sports,5,Like New,7300,14796,1479
+Puma,Fashion,0,Good,0,14421,10511
+N/A,Services,5,Fair,7300,16918,1691
+Generic,Other,3,Fair,4380,8279,898
+Wilson,Sports,1,Like New,1460,18027,9632
+FisherPrice,Kids,4,Fair,5840,8538,853
+Urban Ladder,Furniture,8,Like New,11680,32727,3272
+Acer,Electronics,1,Good,1460,137708,79011
+N/A,Services,0,Poor,0,13358,4006
+TVs,Bikes,1,Like New,1460,80728,61625
+Bajaj,Bikes,5,Good,7300,79633,23522
+Generic,Other,0,Fair,0,4212,1974
+N/A,Books,5,Good,7300,11734,1173
+N/A,Services,3,Fair,4380,9878,1167
+Xiaomi,Mobiles,6,Like New,8760,81929,11503
+N/A,Services,2,Like New,2920,15594,5060
+N/A,Houses & Apartments,7,New,10220,4722,472
+Sony,Electronics,7,Good,10220,144633,22953
+Apple,Mobiles,6,Poor,8760,119921,11992
+N/A,Services,10,Good,14600,12448,1244
+FisherPrice,Kids,5,Like New,7300,5227,522
+Adidas,Fashion,6,Fair,8760,10364,1036
+Hyundai,Cars,1,New,1460,847015,708170
+Hero,Bikes,4,Good,5840,234371,85455
+N/A,Services,5,Good,7300,3083,308
+N/A,Books,0,Good,0,10545,7313
+Generic,Other,5,Fair,7300,9278,927
+N/A,Services,3,Poor,4380,18853,1885
+Nike,Fashion,1,Good,1460,9192,4148
+N/A,Services,10,New,14600,9948,994
+N/A,Services,9,New,13140,5868,586
+Acer,Electronics,9,Fair,13140,92967,9296
+Levis,Fashion,8,Like New,11680,13052,1305
+Vivo,Mobiles,10,New,14600,92380,9238
+Nilkamal,Furniture,2,New,2920,41273,17434
+LG,Electronics,5,Good,7300,152816,34881
+Mahindra,Cars,7,Good,10220,1418129,300456
+TVs,Bikes,4,Fair,5840,112856,28920
+N/A,Houses & Apartments,4,Good,5840,8604,860
+Barbie,Kids,6,Good,8760,3851,385
+Toyota,Cars,0,Good,0,988963,701850
+Nike,Fashion,0,Fair,0,18330,8716
+Local,Furniture,5,Fair,7300,9403,940
+N/A,Services,4,Like New,5840,9382,1136
+N/A,Services,1,Like New,1460,16711,8524
+Generic,Other,7,Poor,10220,6655,665
+N/A,Books,2,Good,2920,14441,3603
+Nike,Fashion,10,Fair,14600,18711,1871
+N/A,Houses & Apartments,0,Fair,0,3485,1843
+Generic,Other,2,Good,2920,3215,807
+IKEA,Furniture,10,Poor,14600,6468,646
+Hero,Bikes,3,Poor,4380,194473,34686
+Wilson,Sports,2,Like New,2920,5810,1818
+Godrej,Furniture,1,New,1460,17279,10700
+Samsung,Electronics,9,Poor,13140,172906,17290
+Dell,Electronics,5,Like New,7300,63104,16270
+Wilson,Sports,8,New,11680,17365,1736
+N/A,Houses & Apartments,2,Good,2920,6169,1702
+Nilkamal,Furniture,5,Good,7300,26991,3223
+N/A,Books,10,Good,14600,1555,155
+Generic,Other,5,Good,7300,14278,1427
+Hyundai,Cars,4,Good,5840,927204,340800
+Yamaha,Bikes,2,Like New,2920,124170,77520
+IKEA,Furniture,7,Like New,10220,8737,873
+Vivo,Mobiles,5,Good,7300,56695,10044
+N/A,Books,7,Good,10220,11003,1100
+Bajaj,Bikes,6,Like New,8760,298389,100852
+Godrej,Furniture,0,Like New,0,8115,6259
+Acer,Electronics,8,Like New,11680,23219,3262
+N/A,Services,7,Good,10220,15148,1514
+Samsung,Electronics,5,Poor,7300,84930,8755
+Godrej,Furniture,8,Fair,11680,12379,1237
+Acer,Electronics,8,Good,11680,66818,7782
+Generic,Other,1,Good,1460,17299,7329
+TVs,Bikes,8,Good,11680,76434,14816
+Wilson,Sports,2,New,2920,16740,5796
+Google,Mobiles,0,Like New,0,104936,80830
+Honda,Bikes,3,Fair,4380,104015,29696
+Generic,Other,9,New,13140,16405,1640
+Nivia,Sports,6,Like New,8760,4906,490
+Yonex,Sports,4,Fair,5840,9515,951
+N/A,Houses & Apartments,4,Poor,5840,15561,1556
+Yamaha,Bikes,6,Good,8760,192665,48378
+N/A,Books,1,Like New,1460,14186,6826
+Royal Enfield,Bikes,0,Good,0,202642,143327
+N/A,Houses & Apartments,6,Good,8760,14069,1406
+N/A,Services,6,Like New,8760,15823,1582
+Mahindra,Cars,9,Good,13140,551209,81711
+N/A,Books,5,Like New,7300,5947,594
+N/A,Books,1,Good,1460,1988,894
+Kia,Cars,9,Good,13140,1376900,235583
+Generic,Other,9,Like New,13140,13040,1304
+N/A,Books,8,Like New,11680,13745,1374
+Acer,Electronics,2,Good,2920,77019,34077
+Generic,Other,1,New,1460,10427,5665
+Royal Enfield,Bikes,1,Poor,1460,110769,26574
+Sony,Electronics,3,Like New,4380,65965,28202
+Generic,Other,10,Fair,14600,12655,1265
+N/A,Houses & Apartments,9,Good,13140,2799,279
+Royal Enfield,Bikes,8,Good,11680,131596,25193
+Generic,Other,5,Good,7300,10998,1099
+Puma,Fashion,4,Fair,5840,18511,1851
+Samsung,Electronics,0,Good,0,58777,40700
+Oppo,Mobiles,9,Like New,13140,102613,10261
+IKEA,Furniture,2,New,2920,26091,12921
+Sony,Electronics,5,Poor,7300,154161,15416
+N/A,Houses & Apartments,4,Good,5840,15298,1529
+HP,Electronics,8,Fair,11680,89786,8978
+Generic,Other,1,Good,1460,9429,3736
+Dell,Electronics,4,New,5840,149022,60027
+Urban Ladder,Furniture,7,Fair,10220,17732,1773
+N/A,Houses & Apartments,2,Good,2920,17966,4587
+Generic,Other,3,Like New,4380,1543,256
+N/A,Books,8,Good,11680,9122,912
+Yonex,Sports,6,New,8760,17837,1783
+Nothing,Mobiles,9,Like New,13140,136201,13620
+N/A,Services,4,Fair,5840,17274,1727
+Tata,Cars,4,Like New,5840,1681334,781327
+N/A,Services,8,Like New,11680,11562,1156
+Lego,Kids,3,Good,4380,10522,1433
+N/A,Books,9,New,13140,14602,1460
+Kia,Cars,8,Good,11680,687579,131165
+Yonex,Sports,10,Good,14600,16361,1636
+Realme,Mobiles,4,Like New,5840,47669,13293
+Generic,Other,5,Good,7300,7746,774
+Xiaomi,Mobiles,1,Like New,1460,75073,44313
+Levis,Fashion,3,Good,4380,18102,2889
+Generic,Other,7,Fair,10220,19691,1969
+Hero,Bikes,9,Fair,13140,133840,16185
+N/A,Services,9,Good,13140,19807,1980
+HotWheels,Kids,5,Like New,7300,10011,1001
+N/A,Books,4,Good,5840,4736,473
+HotWheels,Kids,8,Good,11680,1208,120
+Puma,Fashion,3,Like New,4380,9683,1874
+Levis,Fashion,5,Fair,7300,13135,1313
+N/A,Houses & Apartments,2,Like New,2920,1941,596
+Generic,Other,3,Good,4380,10462,1561
+Generic,Other,5,Poor,7300,9346,934
+N/A,Houses & Apartments,3,Good,4380,5210,769
+Yonex,Sports,4,Good,5840,7656,765
+Apple,Electronics,8,Good,11680,73538,7812
+Mahindra,Cars,7,Good,10220,727913,162870
+Decathlon,Sports,0,Good,0,1711,1154
+Nivia,Sports,6,New,8760,5987,598
+Redmi,Mobiles,4,New,5840,141618,42501
+Hyundai,Cars,6,Good,8760,866677,250143
+Adidas,Fashion,7,Like New,10220,3447,344
+Generic,Other,5,Like New,7300,8707,870
+Yonex,Sports,2,Fair,2920,5515,934
+Levis,Fashion,0,Good,0,7415,5697
+Decathlon,Sports,4,Good,5840,2253,225
+Local,Furniture,7,Good,10220,31603,3160
+Samsung,Electronics,8,Fair,11680,143590,14359
+N/A,Services,8,Poor,11680,8574,857
+N/A,Services,8,Good,11680,17632,1763
+Puma,Fashion,7,Fair,10220,5788,578
+N/A,Services,0,Good,0,16004,12251
+N/A,Books,10,Fair,14600,12899,1289
+N/A,Services,6,Poor,8760,3918,391
+N/A,Houses & Apartments,3,Fair,4380,9887,1004
+Royal Enfield,Bikes,4,Fair,5840,243715,58843
+Yonex,Sports,9,New,13140,15408,1540
+N/A,Services,4,Good,5840,2233,223
+N/A,Services,9,Fair,13140,13661,1366
+Generic,Other,6,Like New,8760,7433,743
+N/A,Books,0,New,0,4481,4427
+Lenovo,Electronics,5,Fair,7300,124276,19613
+N/A,Houses & Apartments,8,Poor,11680,14604,1460
+HP,Electronics,2,Fair,2920,29327,9799
+Yonex,Sports,6,Like New,8760,14336,1433
+N/A,Houses & Apartments,1,Good,1460,18778,7961
+Levis,Fashion,4,Like New,5840,14229,1459
+Local,Furniture,3,Fair,4380,13945,2177
+IKEA,Furniture,9,Fair,13140,39781,3978
+H&M,Fashion,3,Like New,4380,7354,1482
+TVs,Bikes,2,New,2920,74624,55810
+N/A,Services,6,Poor,8760,18859,1885
+N/A,Services,5,Good,7300,17399,1739
+N/A,Books,0,Like New,0,8327,7625
+Apple,Mobiles,1,Good,1460,139566,74200
+Local,Furniture,9,Good,13140,30853,3085
+Mahindra,Cars,2,Fair,2920,1674997,642737
+Mahindra,Cars,6,Good,8760,436974,116876
+N/A,Services,4,Fair,5840,5694,569
+Lego,Kids,0,Good,0,13850,9516
+N/A,Services,4,Good,5840,7911,791
+Royal Enfield,Bikes,7,Good,10220,109702,25792
+LG,Electronics,6,Good,8760,187379,32284
+Generic,Other,5,Good,7300,5863,586
+Decathlon,Sports,9,Poor,13140,6157,615
+HP,Electronics,1,Like New,1460,40716,25290
+IKEA,Furniture,1,Good,1460,23123,11750
+FisherPrice,Kids,9,Good,13140,15959,1595
+Generic,Other,4,Good,5840,12363,1236
+Royal Enfield,Bikes,0,Good,0,240458,181141
+N/A,Services,9,Poor,13140,7355,735
+Tata,Cars,4,Poor,5840,1542339,229771
+Adidas,Fashion,9,Like New,13140,7447,744
+IKEA,Furniture,8,Good,11680,46608,4660
+Samsung,Electronics,1,Fair,1460,77497,33493
+Samsung,Mobiles,6,Good,8760,35016,3968
+OnePlus,Mobiles,4,Good,5840,122928,27810
+Barbie,Kids,5,Fair,7300,19698,1969
+N/A,Books,10,Good,14600,10208,1020
+N/A,Books,4,Like New,5840,12704,1359
+Bajaj,Bikes,0,Like New,0,285384,255906
+Mahindra,Cars,7,Like New,10220,1890471,523829
+Levis,Fashion,3,Good,4380,18858,2965
+Local,Furniture,3,Fair,4380,22969,3929
+Generic,Other,2,Good,2920,8238,2083
+N/A,Books,6,Good,8760,8855,885
+Toyota,Cars,1,Like New,1460,1601818,1220217
+N/A,Houses & Apartments,5,Poor,7300,18156,1815
+Adidas,Fashion,1,Good,1460,16592,6433
+N/A,Services,4,Good,5840,8558,855
+N/A,Houses & Apartments,9,Good,13140,2835,283
+Barbie,Kids,1,Fair,1460,4896,1522
+Decathlon,Sports,0,Like New,0,12501,11009
+Hero,Bikes,10,New,14600,270260,54856
+Lego,Kids,6,Good,8760,12940,1294
+Local,Furniture,4,New,5840,14606,3118
+Redmi,Mobiles,0,Good,0,83558,52881
+Urban Ladder,Furniture,10,Like New,14600,19833,1983
+Tata,Cars,2,Good,2920,1876457,946215
+Lenovo,Electronics,5,Like New,7300,70025,18035
+Puma,Fashion,0,Good,0,1521,1022
+Yonex,Sports,3,Poor,4380,6888,688
+Generic,Other,6,Fair,8760,4175,417
+Urban Ladder,Furniture,8,Good,11680,6505,650
+N/A,Services,3,Like New,4380,14698,2714
+Apple,Mobiles,3,Like New,4380,29818,10764
+N/A,Books,4,Fair,5840,18024,1802
+Generic,Other,2,Good,2920,5917,1603
+N/A,Houses & Apartments,8,Like New,11680,8551,855
+IKEA,Furniture,3,New,4380,28501,8426
+Nilkamal,Furniture,4,Good,5840,22474,3833
+Nothing,Mobiles,5,Like New,7300,27866,5905
+Samsung,Electronics,5,Good,7300,120031,28549
+Yamaha,Bikes,5,Good,7300,104583,33540
+Samsung,Electronics,8,Good,11680,116344,14844
+N/A,Books,0,Good,0,7693,5751
+HotWheels,Kids,5,Fair,7300,19362,1936
+N/A,Services,2,Good,2920,15054,4025
+N/A,Books,1,Good,1460,4237,1685
+N/A,Books,2,Good,2920,15591,3716
+Mahindra,Cars,5,Like New,7300,844732,329158
+Wilson,Sports,4,Like New,5840,7153,742
+Bajaj,Bikes,6,Fair,8760,54398,9525
+Samsung,Electronics,6,Like New,8760,26064,6093
+HP,Electronics,4,New,5840,182394,77110
+N/A,Houses & Apartments,9,Like New,13140,5305,530
+Generic,Other,5,Like New,7300,18114,1811
+Generic,Other,3,Poor,4380,6663,666
+Levis,Fashion,1,Good,1460,18740,7756
+Nike,Fashion,3,Good,4380,2411,330
+Adidas,Fashion,5,Poor,7300,16300,1630
+N/A,Houses & Apartments,2,Good,2920,4951,1122
+IKEA,Furniture,8,Good,11680,27720,2772
+Godrej,Furniture,1,Good,1460,7784,4156
+Vivo,Mobiles,2,Fair,2920,13490,3538
+Nike,Fashion,7,Poor,10220,2516,251
+LG,Electronics,10,Like New,14600,73667,7366
+N/A,Books,10,Poor,14600,15106,1510
+Apple,Mobiles,7,Like New,10220,65692,8111
+Sony,Electronics,2,Good,2920,37625,17004
+N/A,Books,0,Poor,0,13063,4219
+Local,Furniture,4,Good,5840,11591,1925
+Puma,Fashion,4,Poor,5840,17510,1751
+N/A,Houses & Apartments,4,Good,5840,15785,1578
+N/A,Houses & Apartments,9,Like New,13140,17757,1775
+Generic,Other,5,Poor,7300,8837,883
+Lego,Kids,4,Good,5840,19232,1923
+Wilson,Sports,9,Good,13140,13669,1366
+Google,Mobiles,9,Good,13140,15608,1560
+Nike,Fashion,9,Good,13140,17308,1730
+N/A,Services,2,Fair,2920,3745,654
+Apple,Electronics,10,Good,14600,62180,6218
+Generic,Other,8,Like New,11680,2694,269
+Toyota,Cars,1,Good,1460,1066073,605482
+Google,Mobiles,6,Good,8760,79660,9797
+Nivia,Sports,0,Like New,0,15208,13431
+N/A,Services,3,Fair,4380,11199,1191
+N/A,Books,8,Like New,11680,17412,1741
+Nivia,Sports,7,Good,10220,6033,603
+Bajaj,Bikes,3,Like New,4380,144644,77042
+N/A,Houses & Apartments,9,Fair,13140,17640,1764
+Decathlon,Sports,4,Fair,5840,8185,818
+IKEA,Furniture,2,Good,2920,43716,15509
+Decathlon,Sports,10,Fair,14600,2640,264
+N/A,Houses & Apartments,4,Like New,5840,14968,1532
+Generic,Other,0,New,0,5772,5510
+Lego,Kids,3,Good,4380,7691,1165
+Barbie,Kids,6,Like New,8760,14174,1417
+Realme,Mobiles,0,Good,0,92199,69976
+Hero,Bikes,9,Fair,13140,265805,28381
+Vivo,Mobiles,7,Poor,10220,122902,12290
+Local,Furniture,7,Like New,10220,48201,4820
+Yamaha,Bikes,2,Fair,2920,288986,99676
+Wilson,Sports,6,Good,8760,14904,1490
+N/A,Houses & Apartments,2,Good,2920,18517,4906
+N/A,Houses & Apartments,4,Good,5840,19667,1966
+N/A,Services,10,Good,14600,8161,816
+OnePlus,Mobiles,6,Good,8760,32086,4049
+Samsung,Mobiles,8,Like New,11680,83535,8353
+Toyota,Cars,1,Like New,1460,1300597,950022
+Honda,Bikes,3,Good,4380,285461,127099
+Local,Furniture,6,Good,8760,15666,1566
+Yonex,Sports,3,Good,4380,14272,1982
+Toyota,Cars,8,Like New,11680,1095103,255697
+N/A,Books,9,Fair,13140,19841,1984
+N/A,Books,1,New,1460,5493,3344
+Zara,Fashion,5,Fair,7300,13539,1353
+Adidas,Fashion,9,Good,13140,7961,796
+Godrej,Furniture,0,Good,0,46226,31285
+Nothing,Mobiles,4,Good,5840,116968,23806
+Toyota,Cars,10,Good,14600,1734831,241240
+Google,Mobiles,3,Poor,4380,71277,9816
+OnePlus,Mobiles,3,Good,4380,27451,7879
+Urban Ladder,Furniture,6,New,8760,34269,4105
+N/A,Houses & Apartments,9,Good,13140,19002,1900
+N/A,Books,2,Like New,2920,10739,3177
+N/A,Books,10,New,14600,2395,239
+IKEA,Furniture,3,New,4380,43264,15332
+Nivia,Sports,9,Like New,13140,18639,1863
+IKEA,Furniture,7,Like New,10220,12199,1219
+HotWheels,Kids,1,Like New,1460,18378,9479
+H&M,Fashion,10,Good,14600,9845,984
+N/A,Services,4,Good,5840,13843,1384
+Sony,Electronics,1,Good,1460,164533,100951
+Local,Furniture,10,Good,14600,5949,594
+Mahindra,Cars,2,Like New,2920,1763841,1156562
+Toyota,Cars,4,Good,5840,1353695,540072
+Wilson,Sports,9,Like New,13140,4010,401
+Nilkamal,Furniture,10,Fair,14600,19394,1939
+N/A,Houses & Apartments,1,Good,1460,3776,1617
+Lego,Kids,7,Fair,10220,17377,1737
+Yonex,Sports,4,New,5840,1985,265
+Kia,Cars,8,Good,11680,1247390,259749
+N/A,Houses & Apartments,9,Good,13140,17729,1772
+Toyota,Cars,8,Good,11680,1921526,392101
+Lego,Kids,10,Fair,14600,13548,1354
+N/A,Houses & Apartments,3,Poor,4380,10187,1018
+Godrej,Furniture,0,Poor,0,27585,8256
+Samsung,Electronics,5,Good,7300,65578,15951
+N/A,Houses & Apartments,4,Fair,5840,13903,1390
+Nilkamal,Furniture,9,Good,13140,49820,4982
+N/A,Books,0,Like New,0,2008,1811
+Nivia,Sports,1,Like New,1460,4531,2184
+N/A,Services,2,Good,2920,10394,2701
+Nike,Fashion,8,Like New,11680,5318,531
+N/A,Services,7,Good,10220,14644,1464
+Generic,Other,5,Fair,7300,2354,235
+N/A,Services,1,Good,1460,1698,714
+Vivo,Mobiles,6,Fair,8760,125413,12541
+Sony,Electronics,6,Fair,8760,145739,18874
+Kia,Cars,2,Fair,2920,1488320,537075
+Yonex,Sports,9,Like New,13140,17413,1741
+Generic,Other,7,Fair,10220,4842,484
+Apple,Mobiles,4,Like New,5840,51193,14651
+Toyota,Cars,5,Like New,7300,1324711,499479
+N/A,Services,0,Fair,0,16469,8717
+Nivia,Sports,10,Good,14600,8079,807
+Kia,Cars,4,Like New,5840,512520,236814
+Asus,Electronics,2,Poor,2920,93849,19209
+Nivia,Sports,2,Like New,2920,14143,4253
+N/A,Books,2,Good,2920,1392,325
+N/A,Books,5,Fair,7300,13000,1300
+N/A,Services,0,Good,0,19683,13520
+Nivia,Sports,2,Like New,2920,19132,6035
+Realme,Mobiles,8,Fair,11680,32406,3240
+Generic,Other,4,Good,5840,12255,1225
+Xiaomi,Mobiles,3,Good,4380,33506,10554
+Redmi,Mobiles,1,Fair,1460,10067,3715
+Generic,Other,8,Like New,11680,6300,630
+Urban Ladder,Furniture,10,Poor,14600,48793,4879
+Bajaj,Bikes,6,Good,8760,108624,30778
+N/A,Services,3,Good,4380,1038,158
+N/A,Services,5,Like New,7300,18235,1823
+Levis,Fashion,8,Good,11680,11990,1199
+N/A,Books,0,Like New,0,7058,5949
+Hyundai,Cars,3,Good,4380,736187,295243
+Local,Furniture,0,Good,0,29758,19986
+Generic,Other,10,Fair,14600,15000,1500
+Tata,Cars,9,Good,13140,1028591,158249
+N/A,Services,5,Fair,7300,13549,1354
+Nothing,Mobiles,6,Good,8760,97445,12827
+Sony,Electronics,8,Good,11680,168811,18847
+N/A,Houses & Apartments,2,New,2920,3632,1142
+N/A,Books,1,Like New,1460,11125,5414
+Samsung,Mobiles,8,Good,11680,48500,4850
+Local,Furniture,9,Fair,13140,8510,851
+N/A,Houses & Apartments,0,Like New,0,7317,6746
+Generic,Other,3,Fair,4380,10058,1041
+Nike,Fashion,6,Good,8760,5635,563
+Redmi,Mobiles,6,Fair,8760,27974,2797
+Sony,Electronics,7,New,10220,198098,43206
+N/A,Houses & Apartments,3,Good,4380,15874,2199
+Dell,Electronics,3,Good,4380,123985,46426
+N/A,Houses & Apartments,9,Like New,13140,3623,362
+Xiaomi,Mobiles,9,Like New,13140,146808,14680
+Lego,Kids,7,Good,10220,11735,1173
+Levis,Fashion,4,Good,5840,8618,861
+N/A,Houses & Apartments,8,Good,11680,18542,1854
+N/A,Services,1,Fair,1460,18971,5796
+Yonex,Sports,7,Fair,10220,13847,1384
+Samsung,Electronics,10,Good,14600,112426,11242
+Apple,Electronics,10,Fair,14600,92121,9212
+Toyota,Cars,5,Like New,7300,400326,164495
+N/A,Houses & Apartments,9,Fair,13140,8028,802
+Nilkamal,Furniture,5,Good,7300,24574,2612
+HP,Electronics,5,Good,7300,51724,13020
+TVs,Bikes,3,New,4380,293301,184376
+Sony,Electronics,7,Good,10220,79935,12397
+Barbie,Kids,7,Fair,10220,16500,1650
+Honda,Cars,5,Like New,7300,1880000,724369
+Kia,Cars,10,Poor,14600,1940370,194037
+Kia,Cars,0,Good,0,1777825,1364569
+Generic,Other,7,Good,10220,5860,586
+Tata,Cars,8,Poor,11680,1074773,107477
+Generic,Other,1,Like New,1460,11866,5478
+OnePlus,Mobiles,5,Fair,7300,73392,8806
+Puma,Fashion,10,Poor,14600,3812,381
+Yonex,Sports,8,Like New,11680,17563,1756
+N/A,Books,1,Fair,1460,5696,1769
+N/A,Houses & Apartments,6,Fair,8760,15358,1535
+N/A,Services,9,Good,13140,12324,1232
+Honda,Bikes,2,Good,2920,103417,51943
+Lego,Kids,2,Good,2920,6564,1621
+Royal Enfield,Bikes,7,Good,10220,275061,64842
+Generic,Other,10,New,14600,15530,1553
+N/A,Books,6,Good,8760,8787,878
+N/A,Services,2,Good,2920,18737,4702
+TVs,Bikes,1,Good,1460,66160,42770
+Wilson,Sports,7,Like New,10220,6290,629
+Royal Enfield,Bikes,4,Fair,5840,83419,23939
+N/A,Services,9,Like New,13140,6032,603
+Nothing,Mobiles,9,New,13140,146619,14661
+Puma,Fashion,10,Poor,14600,9508,950
+Bajaj,Bikes,4,Good,5840,67847,25568
+Generic,Other,5,Fair,7300,9445,944
+Vivo,Mobiles,7,Good,10220,64348,6434
+N/A,Books,6,Fair,8760,7379,737
+Wilson,Sports,10,Good,14600,1664,166
+Mahindra,Cars,6,Poor,8760,713363,74556
+Royal Enfield,Bikes,7,Like New,10220,128812,32899
+Barbie,Kids,2,New,2920,11432,3647
+Bajaj,Bikes,1,Good,1460,191694,103071
+Wilson,Sports,4,Poor,5840,8543,854
+Oppo,Mobiles,7,Fair,10220,76978,7697
+N/A,Services,1,Good,1460,16912,7082
+N/A,Houses & Apartments,4,Good,5840,4912,491
+Redmi,Mobiles,9,New,13140,18537,1853
+Toyota,Cars,1,Fair,1460,938571,364141
+Wilson,Sports,9,Good,13140,7296,729
+FisherPrice,Kids,7,Good,10220,8470,847
+N/A,Services,1,Good,1460,3291,1340
+Adidas,Fashion,10,Good,14600,16575,1657
+Yonex,Sports,5,New,7300,5534,553
+Acer,Electronics,6,Like New,8760,185308,42850
+Yamaha,Bikes,1,Good,1460,192831,116248
+Hero,Bikes,5,Good,7300,138955,39754
+Sony,Electronics,8,Good,11680,178315,21595
+Wilson,Sports,8,New,11680,14050,1405
+N/A,Books,5,Good,7300,10603,1060
+Hero,Bikes,2,Good,2920,186772,99160
+Dell,Electronics,8,New,11680,102321,17809
+N/A,Houses & Apartments,0,Like New,0,2959,2750
+Decathlon,Sports,6,Good,8760,2283,228
+Generic,Other,1,Poor,1460,1427,281
+N/A,Houses & Apartments,6,New,8760,13819,1381
+Generic,Other,1,Like New,1460,14356,6656
+Generic,Other,0,Good,0,11133,7402
+HP,Electronics,0,Good,0,26789,17417
+N/A,Services,8,Like New,11680,8804,880
+Urban Ladder,Furniture,8,Like New,11680,23233,2323
+Wilson,Sports,8,Good,11680,14813,1481
+N/A,Services,10,Fair,14600,7267,726
+Nothing,Mobiles,1,Fair,1460,12138,4197
+IKEA,Furniture,6,Good,8760,11515,1151
+N/A,Services,1,Like New,1460,19857,11118
+Decathlon,Sports,7,Good,10220,13998,1399
+N/A,Houses & Apartments,0,Good,0,15172,10337
+N/A,Houses & Apartments,6,Fair,8760,15323,1532
+Bajaj,Bikes,7,Fair,10220,143848,24997
+Yamaha,Bikes,10,Good,14600,222489,31644
+Lego,Kids,4,Good,5840,1827,182
+Puma,Fashion,2,Fair,2920,10412,1715
+Nike,Fashion,0,New,0,16510,14214
+Nivia,Sports,6,New,8760,16513,1651
+Generic,Other,4,Like New,5840,18506,2012
+Adidas,Fashion,8,Fair,11680,18169,1816
+Yamaha,Bikes,7,Like New,10220,177857,44184
+Generic,Other,10,Like New,14600,3398,339
+Yonex,Sports,3,Like New,4380,10694,2077
+HP,Electronics,0,Fair,0,111132,50310
+N/A,Books,4,Good,5840,3326,332
+Apple,Mobiles,3,Good,4380,111143,31514
+TVs,Bikes,4,Poor,5840,236207,39922
+Apple,Electronics,2,Fair,2920,179129,55744
+N/A,Books,3,Good,4380,12366,1762
+Toyota,Cars,5,Good,7300,628674,193379
+Puma,Fashion,2,Like New,2920,11610,3584
+Local,Furniture,3,Good,4380,33876,8539
+Local,Furniture,1,Like New,1460,13545,8389
+Yonex,Sports,6,Good,8760,6484,648
+N/A,Books,9,Fair,13140,6897,689
+N/A,Books,3,Good,4380,7118,978
+Urban Ladder,Furniture,6,Like New,8760,7953,799
+Hero,Bikes,0,Good,0,294109,190463
+Lego,Kids,6,Good,8760,14557,1455
+TVs,Bikes,3,Good,4380,289717,130274
+N/A,Services,5,New,7300,12764,1276
+Nilkamal,Furniture,7,Like New,10220,29526,2952
+N/A,Services,4,Fair,5840,12368,1236
+Honda,Bikes,9,Good,13140,230689,39491
+Adidas,Fashion,7,Like New,10220,15360,1536
+Acer,Electronics,10,Poor,14600,26519,2651
+Barbie,Kids,4,Good,5840,4844,484
+N/A,Houses & Apartments,1,Good,1460,7797,3363
+N/A,Houses & Apartments,0,Like New,0,18597,14686
+Asus,Electronics,7,Poor,10220,198346,19834
+Mahindra,Cars,4,Good,5840,783048,260326
+Royal Enfield,Bikes,8,Good,11680,175423,32967
+Godrej,Furniture,9,Good,13140,39490,3949
+Urban Ladder,Furniture,8,Good,11680,9144,914
+N/A,Books,0,Good,0,8282,6274
+H&M,Fashion,9,Good,13140,6365,636
+Zara,Fashion,7,Good,10220,9340,934
+Hero,Bikes,3,Good,4380,168276,72820
+Zara,Fashion,2,New,2920,4934,1711
+N/A,Services,3,Like New,4380,12612,2503
+N/A,Books,9,New,13140,1281,128
+N/A,Services,8,Like New,11680,19229,1922
+FisherPrice,Kids,2,Like New,2920,16571,5079
+FisherPrice,Kids,0,Like New,0,5693,4926
+Nothing,Mobiles,1,New,1460,143023,95255
+Yonex,Sports,2,Fair,2920,18779,3530
+Tata,Cars,1,Poor,1460,1690762,445291
+Godrej,Furniture,8,Good,11680,32220,3222
+N/A,Houses & Apartments,7,Fair,10220,8496,849
+Yamaha,Bikes,3,Fair,4380,203761,59515
+Lego,Kids,9,Poor,13140,19895,1989
+Lenovo,Electronics,5,Poor,7300,71955,7195
+N/A,Books,7,Good,10220,10651,1065
+N/A,Books,3,Poor,4380,10106,1010
+N/A,Houses & Apartments,1,Good,1460,5538,2357
+Decathlon,Sports,1,Like New,1460,14666,7002
+N/A,Services,5,Fair,7300,6275,627
+N/A,Books,4,Good,5840,4183,418
+Levis,Fashion,0,Good,0,2024,1529
+Bajaj,Bikes,0,Fair,0,87662,43519
+Royal Enfield,Bikes,8,Like New,11680,76787,17789
+N/A,Books,2,Good,2920,14842,3676
+Zara,Fashion,4,Fair,5840,15599,1559
+Lenovo,Electronics,6,Poor,8760,179439,17943
+Lenovo,Electronics,2,Good,2920,54705,26219
+Generic,Other,0,Like New,0,7049,5556
+N/A,Books,9,Good,13140,10380,1038
+Generic,Other,7,New,10220,15975,1597
+Nilkamal,Furniture,7,Good,10220,39480,3948
+Dell,Electronics,0,Like New,0,181814,147451
+Urban Ladder,Furniture,6,Good,8760,10774,1077
+N/A,Houses & Apartments,6,Good,8760,13258,1325
+Hyundai,Cars,10,Fair,14600,1825596,197545
+Wilson,Sports,1,Poor,1460,2045,356
+N/A,Houses & Apartments,3,Good,4380,10737,1462
+Lego,Kids,3,Good,4380,17161,2511
+Lenovo,Electronics,1,Like New,1460,50466,33278
+Godrej,Furniture,5,Fair,7300,37529,3752
+Urban Ladder,Furniture,8,Good,11680,45023,4502
+Apple,Mobiles,6,Fair,8760,118373,11837
+N/A,Services,10,Like New,14600,7943,794
+Oppo,Mobiles,6,Good,8760,80724,9207
+OnePlus,Mobiles,3,Poor,4380,35785,4213
+Samsung,Mobiles,8,Poor,11680,70827,7082
+Generic,Other,2,New,2920,18858,6681
+Puma,Fashion,7,Poor,10220,1081,108
+IKEA,Furniture,6,Fair,8760,29866,2986
+Barbie,Kids,9,Good,13140,8770,877
+Levis,Fashion,2,Fair,2920,2633,516
+N/A,Books,10,Good,14600,10560,1056
+N/A,Houses & Apartments,10,Fair,14600,18090,1809
+H&M,Fashion,8,Poor,11680,15502,1550
+Zara,Fashion,3,Like New,4380,8606,1465
+N/A,Books,10,Poor,14600,14447,1444
+N/A,Books,8,Fair,11680,5388,538
+Godrej,Furniture,10,Fair,14600,41025,4102
+Lego,Kids,7,Poor,10220,8040,804
+N/A,Services,0,Fair,0,12771,6004
+Hyundai,Cars,7,Fair,10220,1166650,184423
+N/A,Houses & Apartments,9,Like New,13140,7454,745
+FisherPrice,Kids,5,Like New,7300,12310,1231
+Tata,Cars,3,Fair,4380,1002421,302006
+N/A,Houses & Apartments,8,Good,11680,12249,1224
+Yonex,Sports,3,Like New,4380,10929,2007
+Levis,Fashion,2,Good,2920,16086,3737
+Decathlon,Sports,9,New,13140,10984,1098
+Lego,Kids,3,Fair,4380,1674,188
+N/A,Houses & Apartments,1,Poor,1460,14150,2621
+HotWheels,Kids,10,New,14600,5324,532
+IKEA,Furniture,10,Like New,14600,10276,1027
+Nivia,Sports,1,Good,1460,15213,6919
+Honda,Bikes,0,Good,0,169239,116466
+Lego,Kids,0,Good,0,3471,2443
+Apple,Electronics,7,Good,10220,163575,26086
+Bajaj,Bikes,7,Good,10220,178998,40555
+HotWheels,Kids,10,Good,14600,12612,1261
+Yamaha,Bikes,0,Like New,0,224282,184671
+N/A,Services,0,Good,0,14209,9282
+Samsung,Electronics,7,Fair,10220,167966,19316
+N/A,Books,4,Good,5840,6469,646
+N/A,Houses & Apartments,5,Good,7300,5728,572
+Wilson,Sports,1,Good,1460,11542,4668
+Nilkamal,Furniture,7,Good,10220,17244,1724
+Local,Furniture,4,New,5840,25919,5587
+N/A,Services,3,Like New,4380,6822,1219
+Adidas,Fashion,9,Fair,13140,13963,1396
+TVs,Bikes,9,Good,13140,281603,45618
+H&M,Fashion,1,Good,1460,6543,2904
+N/A,Houses & Apartments,0,Fair,0,4733,2467
+Generic,Other,10,Good,14600,2559,255
+Xiaomi,Mobiles,3,Like New,4380,145703,47762
+Lego,Kids,3,Fair,4380,8991,1028
+FisherPrice,Kids,0,Fair,0,16849,8108
+Local,Furniture,3,Good,4380,42808,10412
+IKEA,Furniture,4,Poor,5840,37398,3739
+N/A,Books,1,New,1460,10061,5359
+Google,Mobiles,0,New,0,43231,41110
+HotWheels,Kids,10,Good,14600,4472,447
+Apple,Electronics,1,New,1460,108666,85837
+N/A,Houses & Apartments,7,Like New,10220,1591,159
+N/A,Services,2,Fair,2920,15707,2747
+Adidas,Fashion,5,Like New,7300,1760,176
+Nilkamal,Furniture,9,New,13140,35639,3563
+Yamaha,Bikes,2,Good,2920,220758,118051
+Godrej,Furniture,10,Good,14600,22159,2215
+Apple,Mobiles,0,Fair,0,80935,39874
+Wilson,Sports,6,Good,8760,13318,1331
+Toyota,Cars,1,Like New,1460,1673737,1139787
+Generic,Other,10,Fair,14600,5929,592
+Generic,Other,3,Poor,4380,11661,1166
+HotWheels,Kids,5,Good,7300,10918,1091
+Royal Enfield,Bikes,8,Good,11680,209276,40262
+Hyundai,Cars,5,Poor,7300,345840,42313
+HotWheels,Kids,9,Good,13140,2258,225
+N/A,Services,10,Good,14600,6848,684
+N/A,Services,7,Good,10220,4260,426
+Levis,Fashion,4,Fair,5840,1678,167
+OnePlus,Mobiles,10,Good,14600,130803,13080
+Google,Mobiles,3,Good,4380,138743,42511
+Apple,Mobiles,5,Good,7300,114957,19503
+Maruti,Cars,1,Good,1460,439248,245432
+Bajaj,Bikes,10,Good,14600,116207,14651
+N/A,Houses & Apartments,3,Like New,4380,9130,1747
+Hyundai,Cars,3,Like New,4380,1452933,761644
+HotWheels,Kids,4,Like New,5840,11848,1354
+Generic,Other,7,Good,10220,3138,313
+Levis,Fashion,4,Fair,5840,16075,1607
+Adidas,Fashion,2,Good,2920,4778,1177
+Asus,Electronics,9,Good,13140,152587,15258
+Generic,Other,6,Good,8760,12007,1200
+Realme,Mobiles,1,Poor,1460,148974,36526
+HotWheels,Kids,8,Like New,11680,16086,1608
+Royal Enfield,Bikes,3,Poor,4380,288441,48245
+Kia,Cars,4,Like New,5840,1212475,565669
+Yamaha,Bikes,7,New,10220,73805,21183
+Lego,Kids,8,Fair,11680,4205,420
+N/A,Services,4,Good,5840,13170,1317
+Google,Mobiles,6,Good,8760,142163,16518
+Xiaomi,Mobiles,3,Good,4380,89891,25995
+Nilkamal,Furniture,0,Good,0,37221,23585
+IKEA,Furniture,2,Good,2920,40429,13967
+Kia,Cars,4,Poor,5840,1551026,257888
+Mahindra,Cars,2,Good,2920,397024,216031
+Honda,Cars,2,Good,2920,1771483,826762
+Generic,Other,3,Good,4380,1658,247
+Godrej,Furniture,1,Poor,1460,8380,1878
+Levis,Fashion,1,Good,1460,4463,1837
+Oppo,Mobiles,5,Poor,7300,35661,3566
+Godrej,Furniture,4,Poor,5840,47340,4734
+N/A,Books,8,Good,11680,8469,846
+Acer,Electronics,1,Good,1460,79659,43067
+N/A,Services,3,Good,4380,7342,1004
+N/A,Services,4,Like New,5840,10152,1111
+Nothing,Mobiles,3,Poor,4380,27680,3808
+N/A,Books,0,Good,0,3432,2517
+N/A,Houses & Apartments,4,Poor,5840,11405,1140
+Google,Mobiles,7,Good,10220,126759,12675
+Lenovo,Electronics,2,Good,2920,188488,84304
+Local,Furniture,4,Good,5840,7202,1301
+Maruti,Cars,8,Like New,11680,1178389,283692
+Apple,Electronics,9,Like New,13140,160726,20111
+N/A,Houses & Apartments,4,Good,5840,3806,380
+N/A,Services,4,Fair,5840,8992,899
+N/A,Services,7,Good,10220,4675,467
+N/A,Houses & Apartments,6,Good,8760,5312,531
+LG,Electronics,10,Good,14600,182725,18272
+Samsung,Mobiles,8,Fair,11680,47635,4763
+Generic,Other,6,Good,8760,17741,1774
+Godrej,Furniture,10,Like New,14600,22142,2214
+N/A,Houses & Apartments,8,Good,11680,11399,1139
+Nike,Fashion,8,Good,11680,12366,1236
+Barbie,Kids,0,Poor,0,2891,828
+N/A,Houses & Apartments,4,Fair,5840,18074,1807
+Oppo,Mobiles,2,Good,2920,44572,18308
+FisherPrice,Kids,10,Like New,14600,6603,660
+Decathlon,Sports,7,Like New,10220,13348,1334
+Zara,Fashion,3,Like New,4380,1319,238
+N/A,Books,7,Like New,10220,8684,868
+Barbie,Kids,7,Good,10220,19919,1991
+Zara,Fashion,2,Fair,2920,3582,693
+FisherPrice,Kids,9,Good,13140,5750,575
+Royal Enfield,Bikes,6,Good,8760,97480,23587
+N/A,Services,7,Like New,10220,17672,1767
+Hyundai,Cars,0,Fair,0,1430733,771351
+N/A,Books,10,Fair,14600,14714,1471
+N/A,Services,7,Good,10220,14565,1456
+Yonex,Sports,0,Good,0,7880,5355
+Apple,Mobiles,8,Good,11680,73000,7300
+N/A,Books,5,Good,7300,7080,708
+TVs,Bikes,1,Fair,1460,241830,107542
+Vivo,Mobiles,4,Like New,5840,38113,11079
+Nilkamal,Furniture,3,Poor,4380,6155,623
+Godrej,Furniture,6,Like New,8760,38881,4125
+N/A,Books,10,Fair,14600,1882,188
+Royal Enfield,Bikes,10,Good,14600,262008,37661
+IKEA,Furniture,3,Good,4380,30663,7191
+Levis,Fashion,2,Like New,2920,12863,4193
+TVs,Bikes,3,Like New,4380,73985,40409
+N/A,Books,4,Good,5840,18282,1828
+Generic,Other,8,Like New,11680,14792,1479
+Honda,Bikes,1,Fair,1460,260607,114451
+Honda,Cars,0,Poor,0,1044470,304411
+Local,Furniture,1,New,1460,29909,19852
+Zara,Fashion,1,Good,1460,13411,5682
+N/A,Services,5,Good,7300,13630,1363
+Realme,Mobiles,3,Like New,4380,63053,20972
+Lenovo,Electronics,3,Good,4380,51477,20146
+Royal Enfield,Bikes,1,Fair,1460,171975,70097
+Wilson,Sports,4,New,5840,4425,530
+N/A,Books,2,Good,2920,8867,2182
+OnePlus,Mobiles,5,Like New,7300,126103,25648
+N/A,Houses & Apartments,4,Poor,5840,3033,303
+Apple,Electronics,4,Fair,5840,173063,38010
+Maruti,Cars,5,Good,7300,1455701,420028
+HotWheels,Kids,7,Like New,10220,17155,1715
+Wilson,Sports,1,Good,1460,9993,4597
+Hero,Bikes,4,Good,5840,207013,75651
+HotWheels,Kids,0,Like New,0,4020,3096
+HP,Electronics,8,New,11680,34892,5472
+Xiaomi,Mobiles,3,Like New,4380,126966,44863
+Realme,Mobiles,5,Good,7300,131720,23267
+N/A,Books,10,Like New,14600,14421,1442
+N/A,Houses & Apartments,8,Good,11680,5785,578
+HP,Electronics,4,Like New,5840,188044,65102
+N/A,Services,4,Fair,5840,12971,1297
+Godrej,Furniture,7,New,10220,8835,883
+Lenovo,Electronics,4,Like New,5840,71951,26983
+Nivia,Sports,9,Fair,13140,17953,1795
+Generic,Other,8,Like New,11680,1313,131
+Generic,Other,4,Fair,5840,10562,1056
+Nivia,Sports,2,New,2920,6908,2389
+Puma,Fashion,7,Like New,10220,7721,772
+Tata,Cars,4,Like New,5840,438402,204593
+LG,Electronics,7,New,10220,162608,33267
+N/A,Houses & Apartments,10,Good,14600,18944,1894
+N/A,Books,9,Poor,13140,13646,1364
+H&M,Fashion,9,Fair,13140,14247,1424
+FisherPrice,Kids,2,Good,2920,17560,4086
+Dell,Electronics,2,Fair,2920,65877,21927
+Nothing,Mobiles,1,Like New,1460,91377,61151
+N/A,Services,10,Fair,14600,12658,1265
+HotWheels,Kids,10,Good,14600,1379,137
+Samsung,Electronics,1,Good,1460,112764,67418
+N/A,Houses & Apartments,5,Good,7300,17230,1723
+Yamaha,Bikes,2,Like New,2920,118292,72887
+Nivia,Sports,7,Like New,10220,7501,750
+FisherPrice,Kids,0,Good,0,14902,9637
+Kia,Cars,2,Good,2920,1291213,704206
+Zara,Fashion,0,New,0,11014,9748
+Honda,Bikes,8,Like New,11680,160839,35203
+Kia,Cars,4,Poor,5840,368530,53799
+Generic,Other,8,New,11680,2770,277
+Nilkamal,Furniture,2,Poor,2920,14071,1981
+IKEA,Furniture,2,Good,2920,27089,9811
+Yamaha,Bikes,5,Fair,7300,126257,27592
+Bajaj,Bikes,7,Good,10220,287994,69949
+Tata,Cars,2,Like New,2920,1552732,1018461
+FisherPrice,Kids,1,Poor,1460,13285,2316
+Puma,Fashion,5,Good,7300,6198,619
+N/A,Books,2,Good,2920,9904,2597
+Puma,Fashion,7,Like New,10220,14030,1403
+Apple,Mobiles,10,New,14600,28360,2836
+Samsung,Mobiles,5,Like New,7300,49162,9677
+Levis,Fashion,1,Fair,1460,10863,3432
+N/A,Houses & Apartments,5,Good,7300,16113,1611
+Apple,Mobiles,5,Like New,7300,28271,6096
+Decathlon,Sports,9,Fair,13140,12141,1214
+Generic,Other,4,Good,5840,9714,971
+Yamaha,Bikes,7,Good,10220,258077,60681
+N/A,Houses & Apartments,10,New,14600,17602,1760
+Toyota,Cars,9,New,13140,1135153,237420
+Samsung,Mobiles,5,Fair,7300,127364,13832
+Nike,Fashion,2,Like New,2920,9786,3027
+Google,Mobiles,10,Fair,14600,21291,2129
+Toyota,Cars,6,Good,8760,808409,228356
+Honda,Cars,0,New,0,1832167,1727551
+Royal Enfield,Bikes,0,Good,0,204804,135631
+IKEA,Furniture,0,Good,0,9814,6879
+N/A,Services,5,Poor,7300,13968,1396
+Local,Furniture,8,Fair,11680,43014,4301
+Google,Mobiles,9,Like New,13140,11456,1145
+Vivo,Mobiles,9,Like New,13140,75615,7561
+Puma,Fashion,4,Good,5840,12530,1253
+Nivia,Sports,6,Like New,8760,10345,1034
+Generic,Other,9,Like New,13140,4777,477
+Sony,Electronics,0,Poor,0,187547,61089
+Honda,Bikes,3,Fair,4380,253788,73095
+Urban Ladder,Furniture,10,Good,14600,20484,2048
+N/A,Books,2,Poor,2920,13097,1390
+Godrej,Furniture,4,New,5840,15828,3447
+Mahindra,Cars,3,Like New,4380,760947,360821
+N/A,Services,0,Like New,0,11724,9575
+Barbie,Kids,2,Good,2920,5967,1579
+N/A,Houses & Apartments,7,Fair,10220,11447,1144
+Generic,Other,7,Good,10220,18097,1809
+Generic,Other,5,Like New,7300,9585,958
+Hero,Bikes,10,Like New,14600,200915,30868
+N/A,Houses & Apartments,5,Like New,7300,12788,1278
+IKEA,Furniture,1,Fair,1460,9028,2895
+Lego,Kids,4,Good,5840,2920,292
+Generic,Other,3,Good,4380,6125,863
+N/A,Services,5,Fair,7300,14862,1486
+HP,Electronics,1,Good,1460,54042,29878
+N/A,Books,5,Fair,7300,5817,581
+Decathlon,Sports,9,Fair,13140,7101,710
+Levis,Fashion,8,New,11680,11246,1124
+Royal Enfield,Bikes,2,Good,2920,272068,132805
+Zara,Fashion,3,Good,4380,10304,1541
+Acer,Electronics,0,Good,0,77708,51712
+OnePlus,Mobiles,0,Like New,0,15362,12400
+Sony,Electronics,4,Good,5840,109479,30630
+Yonex,Sports,3,Like New,4380,13582,2717
+Bajaj,Bikes,8,Good,11680,280242,58046
+Levis,Fashion,7,Fair,10220,5080,508
+N/A,Books,8,Good,11680,4001,400
+Wilson,Sports,3,Like New,4380,13015,2391
+N/A,Houses & Apartments,3,Good,4380,2331,335
+Zara,Fashion,9,Fair,13140,14740,1474
+N/A,Houses & Apartments,4,Good,5840,3737,373
+Puma,Fashion,8,Like New,11680,11413,1141
+Hero,Bikes,10,Good,14600,232698,29890
+FisherPrice,Kids,6,Like New,8760,3429,342
+Bajaj,Bikes,5,Good,7300,243732,79214
+Urban Ladder,Furniture,5,Poor,7300,23169,2316
+N/A,Services,2,Fair,2920,19228,3348
+Yamaha,Bikes,3,Fair,4380,233057,69928
+N/A,Books,0,Fair,0,6224,2877
+Generic,Other,4,Good,5840,1225,122
+N/A,Services,3,New,4380,5716,1142
+Decathlon,Sports,2,Good,2920,1548,409
+Samsung,Electronics,1,Fair,1460,169630,64735
+Wilson,Sports,0,Good,0,9481,6550
+N/A,Services,0,Poor,0,19241,6081
+N/A,Books,7,Good,10220,18979,1897
+Hyundai,Cars,4,Good,5840,1603880,604310
+Local,Furniture,3,Like New,4380,39774,12647
+Local,Furniture,7,Fair,10220,5794,579
+HotWheels,Kids,1,Fair,1460,6464,1776
+Adidas,Fashion,6,Like New,8760,4604,460
+Nilkamal,Furniture,3,Good,4380,49029,12532
+Nivia,Sports,0,Good,0,2562,1856
+Nothing,Mobiles,0,Poor,0,55430,16989
+IKEA,Furniture,7,Fair,10220,22821,2282
+Adidas,Fashion,7,Good,10220,11437,1143
+Generic,Other,1,Good,1460,19207,7268
+Lego,Kids,4,Good,5840,8758,875
+Urban Ladder,Furniture,8,Good,11680,23616,2361
+Adidas,Fashion,6,Good,8760,11908,1190
+Kia,Cars,5,Fair,7300,1450635,346523
+Sony,Electronics,9,Fair,13140,145957,14595
+Generic,Other,8,Fair,11680,17136,1713
+Generic,Other,2,Like New,2920,18599,6121
+Yonex,Sports,3,Fair,4380,18864,2005
+Yonex,Sports,3,Good,4380,14565,1995
+N/A,Houses & Apartments,7,Good,10220,11125,1112
+Bajaj,Bikes,9,Good,13140,131344,21573
+Vivo,Mobiles,7,Like New,10220,149000,18057
+Zara,Fashion,8,Fair,11680,16701,1670
+Xiaomi,Mobiles,6,Good,8760,47196,5375
+Levis,Fashion,10,Good,14600,12212,1221
+IKEA,Furniture,6,Good,8760,20195,2019
+Realme,Mobiles,0,New,0,75683,75254
+Nivia,Sports,0,New,0,6132,5882
+N/A,Houses & Apartments,5,Good,7300,12365,1236
+Lego,Kids,4,Like New,5840,16187,1692
+Barbie,Kids,0,Good,0,5583,4071
+Lego,Kids,6,Good,8760,2943,294
+Kia,Cars,9,Fair,13140,1876207,223136
+Nivia,Sports,0,Good,0,10043,7303
+N/A,Services,3,New,4380,9348,1852
+OnePlus,Mobiles,1,Like New,1460,142361,88331
+N/A,Houses & Apartments,2,Good,2920,8969,2331
+Nothing,Mobiles,2,New,2920,29584,14282
+Xiaomi,Mobiles,8,Fair,11680,147441,14744
+N/A,Services,6,Poor,8760,16716,1671
+HotWheels,Kids,4,Fair,5840,12283,1228
+N/A,Books,7,Fair,10220,10715,1071
+Nilkamal,Furniture,5,Like New,7300,35322,4801
+Decathlon,Sports,2,Fair,2920,12384,2293
+N/A,Houses & Apartments,4,Good,5840,15816,1581
+N/A,Services,1,Fair,1460,3397,1080
+Hero,Bikes,1,New,1460,226114,192063
+Local,Furniture,1,Fair,1460,32912,11811
+N/A,Services,0,New,0,3661,3358
+Yonex,Sports,2,Poor,2920,14762,1527
+Maruti,Cars,0,Good,0,707342,510053
+Apple,Electronics,0,Fair,0,143924,67031
+Puma,Fashion,10,Like New,14600,17236,1723
+Honda,Cars,4,Fair,5840,1377554,329484
+Vivo,Mobiles,2,Good,2920,139016,55504
+N/A,Services,8,Like New,11680,17854,1785
+Godrej,Furniture,1,Like New,1460,6759,3956
+N/A,Books,10,Like New,14600,17415,1741
+Generic,Other,1,Good,1460,19271,8343
+N/A,Houses & Apartments,3,Good,4380,6832,1124
+Adidas,Fashion,0,Fair,0,12736,6843
+Lenovo,Electronics,8,Like New,11680,151085,21509
+Yamaha,Bikes,10,Poor,14600,235475,23547
+N/A,Services,3,Good,4380,1435,197
+FisherPrice,Kids,7,Good,10220,14450,1445
+N/A,Books,2,Like New,2920,19854,6490
+Maruti,Cars,4,Good,5840,925635,331841
+N/A,Services,7,Fair,10220,2591,259
+N/A,Houses & Apartments,8,Good,11680,14531,1453
+Urban Ladder,Furniture,10,Good,14600,36653,3665
+Wilson,Sports,6,Good,8760,13422,1342
+N/A,Houses & Apartments,8,Good,11680,17040,1704
+Nivia,Sports,10,Good,14600,7189,718
+Nike,Fashion,0,Poor,0,18194,5832
+Wilson,Sports,10,Good,14600,15456,1545
+N/A,Books,4,Poor,5840,19861,1986
+Godrej,Furniture,4,Like New,5840,13033,2443
+Acer,Electronics,7,Like New,10220,60986,11858
+N/A,Books,5,Fair,7300,8937,893
+Generic,Other,2,Good,2920,3352,851
+Yonex,Sports,10,Good,14600,3397,339
+Royal Enfield,Bikes,5,Like New,7300,272358,108810
+Nothing,Mobiles,5,Like New,7300,50176,10697
+N/A,Books,1,Fair,1460,5152,1402
+N/A,Services,7,Good,10220,11573,1157
+N/A,Books,2,Good,2920,4779,1094
+Samsung,Mobiles,2,Good,2920,143834,58988
+Generic,Other,2,Fair,2920,2242,399
+Hero,Bikes,0,Good,0,227395,144390
+Wilson,Sports,10,Good,14600,1562,156
+Generic,Other,9,Good,13140,8252,825
+Asus,Electronics,7,Like New,10220,168818,33021
+Redmi,Mobiles,6,New,8760,24364,4046
+HotWheels,Kids,7,Good,10220,7576,757
+Hero,Bikes,9,Good,13140,158635,24972
+N/A,Services,2,Good,2920,2263,554
+Levis,Fashion,6,Good,8760,15300,1530
+N/A,Services,1,Like New,1460,4975,2520
+Yonex,Sports,6,Good,8760,13426,1342
+N/A,Houses & Apartments,1,Fair,1460,16286,4854
+N/A,Books,1,Fair,1460,4796,1526
+N/A,Services,7,Like New,10220,17566,1756
+N/A,Books,1,Good,1460,8093,3184
+N/A,Services,3,Good,4380,12845,2038
+N/A,Books,3,Poor,4380,16443,1644
+Generic,Other,0,Fair,0,2095,1041
+Apple,Electronics,4,Good,5840,99072,31109
+N/A,Books,6,Good,8760,10333,1033
+Puma,Fashion,6,Good,8760,7892,789
+N/A,Houses & Apartments,0,Good,0,14365,9411
+Hero,Bikes,6,Like New,8760,131429,40794
+Nothing,Mobiles,4,New,5840,103225,32191
+TVs,Bikes,7,Poor,10220,137981,14021
+Adidas,Fashion,10,Like New,14600,5323,532
+Decathlon,Sports,4,Fair,5840,17185,1718
+Mahindra,Cars,9,Fair,13140,774048,90687
+Honda,Cars,3,Good,4380,1287388,527952
+N/A,Books,2,Good,2920,7905,1859
+FisherPrice,Kids,6,Good,8760,3576,357
+N/A,Books,4,Fair,5840,17639,1763
+Generic,Other,2,Like New,2920,1366,409
+Hyundai,Cars,7,Poor,10220,1739603,182982
+Generic,Other,9,Good,13140,15231,1523
+Lenovo,Electronics,9,Poor,13140,182970,18297
+Puma,Fashion,0,Like New,0,12227,11167
+N/A,Houses & Apartments,1,New,1460,2206,1176
+Generic,Other,7,Like New,10220,12261,1226
+Hero,Bikes,8,Good,11680,158517,29325
+Yonex,Sports,4,Good,5840,14599,1459
+N/A,Books,6,New,8760,10743,1074
+Decathlon,Sports,4,Good,5840,14706,1470
+Levis,Fashion,4,Poor,5840,1441,144
+Levis,Fashion,3,Good,4380,5232,759
+N/A,Books,7,Like New,10220,18362,1836
+Urban Ladder,Furniture,2,Like New,2920,34188,13733
+Lenovo,Electronics,3,Like New,4380,122235,50020
+Decathlon,Sports,5,Good,7300,11508,1150
+Oppo,Mobiles,9,New,13140,13469,1346
+Nilkamal,Furniture,2,Good,2920,27309,9393
+Zara,Fashion,6,Poor,8760,8845,884
+Yamaha,Bikes,7,New,10220,187046,62009
+Yamaha,Bikes,8,Like New,11680,110874,26289
+Redmi,Mobiles,9,Good,13140,93401,9340
+IKEA,Furniture,10,Good,14600,10127,1012
+N/A,Books,10,Fair,14600,11160,1116
+Honda,Cars,2,Fair,2920,1487275,494041
+Nivia,Sports,1,New,1460,12073,6474
+OnePlus,Mobiles,10,Good,14600,37371,3737
+Nivia,Sports,6,Like New,8760,3820,382
+Xiaomi,Mobiles,6,Poor,8760,132063,13206
+N/A,Services,10,Poor,14600,4865,486
+Nike,Fashion,4,Poor,5840,18070,1807
+Lenovo,Electronics,4,Fair,5840,82515,15864
+Acer,Electronics,8,Like New,11680,147630,21031
+N/A,Services,4,Like New,5840,18474,1853
+IKEA,Furniture,1,Like New,1460,21779,13970
+Nivia,Sports,4,Fair,5840,15496,1549
+Wilson,Sports,0,Poor,0,6927,2105
+Mahindra,Cars,1,Fair,1460,1935168,895503
+Wilson,Sports,1,Fair,1460,5626,1803
+Google,Mobiles,9,New,13140,128271,12827
+Asus,Electronics,8,Fair,11680,101392,10139
+Google,Mobiles,4,Good,5840,92315,20002
+N/A,Books,0,Good,0,12014,8655
+Wilson,Sports,10,Fair,14600,11191,1119
+Nivia,Sports,4,Like New,5840,17227,1722
+Generic,Other,0,Good,0,19151,12332
+Generic,Other,9,Good,13140,19915,1991
+Honda,Bikes,4,Good,5840,249375,91812
+N/A,Houses & Apartments,3,Good,4380,8334,1136
+Maruti,Cars,3,Good,4380,1019722,400561
+Godrej,Furniture,5,Poor,7300,13120,1312
+Levis,Fashion,10,Fair,14600,17939,1793
+Apple,Mobiles,3,Like New,4380,37543,14491
+Nivia,Sports,1,Good,1460,6878,3040
+Nivia,Sports,4,Good,5840,18390,1839
+Generic,Other,1,Good,1460,17115,6621
+Apple,Electronics,1,Good,1460,97386,55014
+Acer,Electronics,7,Fair,10220,157658,15765
+N/A,Houses & Apartments,3,Good,4380,2080,321
+Realme,Mobiles,0,Fair,0,44429,20800
+HotWheels,Kids,4,Good,5840,5542,554
+N/A,Books,10,Good,14600,7404,740
+Honda,Bikes,5,New,7300,239514,105391

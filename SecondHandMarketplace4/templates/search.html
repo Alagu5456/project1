@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {% if category_name %}
+        {{ category_name }} - SecondHand Marketplace
+    {% else %}
+        Search Products - SecondHand Marketplace
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <!-- Search Header -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <h2>
+                {% if category_name %}
+                    {{ category_name }} Products
+                {% else %}
+                    Search Products
+                {% endif %}
+            </h2>
+        </div>
+    </div>
+    
+    <!-- Search Form -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <form method="GET" action="{{ url_for('search') }}" class="search-form">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input type="text" name="query" class="form-control" 
+                                   placeholder="Search products..." 
+                                   value="{{ request.args.get('query', '') }}">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <select name="category" class="form-control">
+                                <option value="">All Categories</option>
+                                {% for category in categories %}
+                                    <option value="{{ category }}" 
+                                            {{ 'selected' if request.args.get('category') == category }}>
+                                        {{ category }}
+                                    </option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <input type="text" name="location" class="form-control" 
+                                   placeholder="Location" 
+                                   value="{{ request.args.get('location', '') }}">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <input type="number" name="min_price" class="form-control" 
+                                   placeholder="Min Price" 
+                                   value="{{ request.args.get('min_price', '') }}">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <input type="number" name="max_price" class="form-control" 
+                                   placeholder="Max Price" 
+                                   value="{{ request.args.get('max_price', '') }}">
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-search"></i> Search
+                        </button>
+                        <a href="{{ url_for('search') }}" class="btn btn-secondary ms-2">
+                            <i class="fas fa-times"></i> Clear
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Results -->
+    <div class="row">
+        <div class="col-md-12">
+            {% if products %}
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>{{ products|length }} product{{ 's' if products|length != 1 else '' }} found</h4>
+                </div>
+                
+                <div class="products-grid">
+                    {% for product in products %}
+                        <a href="{{ url_for('product_detail', product_id=product.id) }}" class="product-card">
+                            <div class="product-image">
+                                {% if product.image_filename %}
+                                    <img src="{{ url_for('static', filename='uploads/' + product.image_filename) }}" 
+                                         alt="{{ product.title }}" 
+                                         style="width: 100%; height: 200px; object-fit: cover;">
+                                {% else %}
+                                    <!-- Use category-specific placeholder images -->
+                                    {% if product.category == 'Electronics' %}
+                                        <img src="https://pixabay.com/get/gb1a36d4b05473cebe2176d03b1b75c6f57c97475e2e60170c5884aae0f85389192b35ad4fbd85d07c8ec95670277cf59bec239d9fbb16b5c6cdbd3973e036720_1280.jpg" 
+                                             alt="Electronics" 
+                                             style="width: 100%; height: 200px; object-fit: cover;">
+                                    {% elif product.category == 'Cars' %}
+                                        <img src="https://pixabay.com/get/g407552c586f68876a5deb2935e2d20f7b3d845446091adac66afd70859b9f200f2918a7b5dba71b2b1264661a48e318b075e0324c82fa5c530354652ebbfc78f_1280.jpg" 
+                                             alt="Cars" 
+                                             style="width: 100%; height: 200px; object-fit: cover;">
+                                    {% elif product.category == 'Furniture' %}
+                                        <img src="https://pixabay.com/get/g243c739ffd91979c48bbdd84c87cd95e5256dc85e3e674463edbb027b888c1a3212265a5fd4dc303f3d2059cf0818358e6a3774b7ccbc59f0257d39c70477769_1280.png" 
+                                             alt="Furniture" 
+                                             style="width: 100%; height: 200px; object-fit: cover;">
+                                    {% elif product.category == 'Mobiles' %}
+                                        <img src="https://pixabay.com/get/g32ea8888540fba70434b11cea0f71a53ac26b299d0e9de8408e39129a6c69218ca9e8eee9f269d63b1d33ccd5ed15ae9021398a95cb996c5034a922f3c02ccdf_1280.jpg" 
+                                             alt="Mobiles" 
+                                             style="width: 100%; height: 200px; object-fit: cover;">
+                                    {% else %}
+                                        <img src="https://pixabay.com/get/g3ca24569dc82e190d0722f124b5966cc63effdef48f3b032b14f62bbef709a02145cebe4b2385eedb3611a2cc444661fd7f6e860ba159ed18b0f6b4842d2a829_1280.jpg" 
+                                             alt="Product" 
+                                             style="width: 100%; height: 200px; object-fit: cover;">
+                                    {% endif %}
+                                {% endif %}
+                            </div>
+                            <div class="product-info">
+                                <h5 class="product-title">{{ product.title }}</h5>
+                                <div class="product-price">₹{{ "{:,.0f}".format(product.price) }}</div>
+                                <div class="product-location">
+                                    <i class="fas fa-map-marker-alt"></i> {{ product.location }}
+                                </div>
+                                <div class="product-date">
+                                    <i class="fas fa-clock"></i> {{ product.created_at.strftime('%b %d, %Y') }}
+                                </div>
+                                <div class="mt-2">
+                                    <span class="badge bg-secondary">{{ product.category }}</span>
+                                    <span class="badge bg-info">{{ product.condition }}</span>
+                                </div>
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="text-center py-5">
+                    <i class="fas fa-search fa-3x text-muted mb-3"></i>
+                    <h4>No products found</h4>
+                    <p class="text-muted">
+                        {% if request.args.get('query') or request.args.get('category') %}
+                            Try adjusting your search criteria or browse all products.
+                        {% else %}
+                            Start searching for products using the form above.
+                        {% endif %}
+                    </p>
+                    <a href="{{ url_for('index') }}" class="btn btn-primary">
+                        <i class="fas fa-home"></i> Back to Home
+                    </a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

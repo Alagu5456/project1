@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+
+{% block title %}Order Confirmation - SecondHand Marketplace{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="text-center mb-4">
+                <i class="fas fa-check-circle fa-5x text-success mb-3"></i>
+                <h2>Order Placed Successfully!</h2>
+                <p class="text-muted">Thank you for your order. The seller will contact you soon.</p>
+            </div>
+            
+            <div class="form-container">
+                <h4>Order Details</h4>
+                
+                <div class="row mb-3">
+                    <div class="col-md-4"><strong>Order Number:</strong></div>
+                    <div class="col-md-8">{{ order.order_number }}</div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-4"><strong>Order Date:</strong></div>
+                    <div class="col-md-8">{{ order.created_at.strftime('%B %d, %Y at %I:%M %p') }}</div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-4"><strong>Status:</strong></div>
+                    <div class="col-md-8">
+                        <span class="badge bg-warning text-dark">{{ order.status.title() }}</span>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <h5>Product Details</h5>
+                <div class="row mb-3">
+                    <div class="col-md-3">
+                        {% if order.product.image_filename %}
+                            <img src="{{ url_for('static', filename='uploads/' + order.product.image_filename) }}" 
+                                 alt="{{ order.product.title }}" 
+                                 class="img-fluid rounded">
+                        {% else %}
+                            <img src="https://pixabay.com/get/g3ca24569dc82e190d0722f124b5966cc63effdef48f3b032b14f62bbef709a02145cebe4b2385eedb3611a2cc444661fd7f6e860ba159ed18b0f6b4842d2a829_1280.jpg" 
+                                 alt="Product placeholder" 
+                                 class="img-fluid rounded">
+                        {% endif %}
+                    </div>
+                    <div class="col-md-9">
+                        <h6>{{ order.product.title }}</h6>
+                        <p class="text-muted">₹{{ "{:,.0f}".format(order.total_amount) }}</p>
+                        <p class="text-muted">
+                            <strong>Seller:</strong> {{ order.product.seller.name }}<br>
+                            <strong>Location:</strong> {{ order.product.location }}
+                        </p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <h5>Buyer Information</h5>
+                <div class="row mb-3">
+                    <div class="col-md-4"><strong>Name:</strong></div>
+                    <div class="col-md-8">{{ order.buyer_name }}</div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-4"><strong>Email:</strong></div>
+                    <div class="col-md-8">{{ order.buyer_email }}</div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-4"><strong>Phone:</strong></div>
+                    <div class="col-md-8">{{ order.buyer_phone }}</div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-4"><strong>Address:</strong></div>
+                    <div class="col-md-8">{{ order.buyer_address }}</div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-4"><strong>Payment Method:</strong></div>
+                    <div class="col-md-8">{{ order.payment_method.replace('_', ' ').title() }}</div>
+                </div>
+                
+                {% if order.notes %}
+                <div class="row mb-3">
+                    <div class="col-md-4"><strong>Notes:</strong></div>
+                    <div class="col-md-8">{{ order.notes }}</div>
+                </div>
+                {% endif %}
+                
+                <hr>
+                
+                <div class="text-center">
+                    <a href="{{ url_for('generate_bill', order_id=order.id) }}" 
+                       class="btn btn-primary me-2">
+                        <i class="fas fa-file-invoice"></i> View Bill
+                    </a>
+                    {% if current_user.is_authenticated %}
+                        <a href="{{ url_for('my_orders') }}" 
+                           class="btn btn-secondary me-2">
+                            <i class="fas fa-receipt"></i> My Orders
+                        </a>
+                    {% endif %}
+                    <a href="{{ url_for('index') }}" 
+                       class="btn btn-outline-primary">
+                        <i class="fas fa-home"></i> Continue Shopping
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

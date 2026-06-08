@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+
+{% block title %}Contact Seller - SecondHand Marketplace{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="form-container">
+                <h2 class="text-center mb-4">Contact Seller</h2>
+                
+                <!-- Product Info -->
+                <div class="product-info-card mb-4 p-3 bg-light rounded">
+                    <div class="row">
+                        <div class="col-md-3">
+                            {% if product.image_filename %}
+                                <img src="{{ url_for('static', filename='uploads/' + product.image_filename) }}" 
+                                     alt="{{ product.title }}" 
+                                     class="img-fluid rounded">
+                            {% else %}
+                                <img src="https://pixabay.com/get/g3ca24569dc82e190d0722f124b5966cc63effdef48f3b032b14f62bbef709a02145cebe4b2385eedb3611a2cc444661fd7f6e860ba159ed18b0f6b4842d2a829_1280.jpg" 
+                                     alt="Product placeholder" 
+                                     class="img-fluid rounded">
+                            {% endif %}
+                        </div>
+                        <div class="col-md-9">
+                            <h5>{{ product.title }}</h5>
+                            <p class="text-muted mb-2">₹{{ "{:,.0f}".format(product.price) }}</p>
+                            <p class="text-muted mb-0">
+                                <i class="fas fa-map-marker-alt"></i> {{ product.location }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="text-center text-muted mb-4">
+                    Send a message to <strong>{{ product.seller.name }}</strong> about this product
+                </p>
+                
+                <form method="POST" class="needs-validation" novalidate>
+                    {{ form.hidden_tag() }}
+                    
+                    <div class="form-group">
+                        {{ form.sender_name.label(class="form-label") }}
+                        {{ form.sender_name(class="form-control", 
+                                           value=current_user.name if current_user.is_authenticated else "", 
+                                           placeholder="Your full name") }}
+                        {% if form.sender_name.errors %}
+                            <div class="invalid-feedback d-block">
+                                {% for error in form.sender_name.errors %}
+                                    <span>{{ error }}</span>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="form-group">
+                        {{ form.sender_email.label(class="form-label") }}
+                        {{ form.sender_email(class="form-control", 
+                                            value=current_user.email if current_user.is_authenticated else "", 
+                                            placeholder="Your email address") }}
+                        {% if form.sender_email.errors %}
+                            <div class="invalid-feedback d-block">
+                                {% for error in form.sender_email.errors %}
+                                    <span>{{ error }}</span>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="form-group">
+                        {{ form.sender_phone.label(class="form-label") }}
+                        {{ form.sender_phone(class="form-control", 
+                                            value=current_user.phone if current_user.is_authenticated else "", 
+                                            placeholder="Your phone number (optional)") }}
+                        {% if form.sender_phone.errors %}
+                            <div class="invalid-feedback d-block">
+                                {% for error in form.sender_phone.errors %}
+                                    <span>{{ error }}</span>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="form-group">
+                        {{ form.content.label(class="form-label") }}
+                        {{ form.content(class="form-control", rows="5", 
+                                       placeholder="Hi! I'm interested in your " + product.title + ". Is it still available?") }}
+                        {% if form.content.errors %}
+                            <div class="invalid-feedback d-block">
+                                {% for error in form.content.errors %}
+                                    <span>{{ error }}</span>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="d-grid gap-2">
+                        {{ form.submit(class="btn btn-primary btn-lg") }}
+                    </div>
+                </form>
+                
+                <div class="text-center mt-4">
+                    <a href="{{ url_for('product_detail', product_id=product.id) }}" class="btn btn-secondary">
+                        <i class="fas fa-arrow-left"></i> Back to Product
+                    </a>
+                </div>
+                
+                <!-- Safety Tips -->
+                <div class="mt-4 p-3 bg-warning bg-opacity-10 border border-warning rounded">
+                    <h6><i class="fas fa-exclamation-triangle text-warning"></i> Safety Tips</h6>
+                    <ul class="small mb-0">
+                        <li>Never share your password or sensitive personal information</li>
+                        <li>Meet in a public place for transactions</li>
+                        <li>Inspect the item before making payment</li>
+                        <li>Use secure payment methods</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

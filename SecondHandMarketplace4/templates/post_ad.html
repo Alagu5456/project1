@@ -1,0 +1,254 @@
+{% extends "base.html" %}
+
+{% block title %}Post Ad - SecondHand Marketplace{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="form-container">
+                <h2 class="text-center mb-4">Post Your Ad</h2>
+                <p class="text-center text-muted mb-4">Share details about your product to attract buyers</p>
+
+                <form method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
+                    {{ form.hidden_tag() }}
+
+                    <div class="form-group">
+                        {{ form.title.label(class="form-label") }}
+                        {{ form.title(class="form-control", placeholder="e.g., iPhone 13 Pro in excellent condition") }}
+                        {% if form.title.errors %}
+                        <div class="invalid-feedback d-block">
+                            {% for error in form.title.errors %}
+                            <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                {{ form.brand.label(class="form-label") }}
+                                {{ form.brand(class="form-control", id="brand") }}
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                {{ form.original_price.label(class="form-label") }}
+                                {{ form.original_price(class="form-control", id="original_price", placeholder="Original
+                                Price") }}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                {{ form.purchase_year.label(class="form-label") }}
+                                {{ form.purchase_year(class="form-control", id="purchase_year", placeholder="YYYY") }}
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                {{ form.usage_duration.label(class="form-label") }}
+                                {{ form.usage_duration(class="form-control", id="usage_duration") }}
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        {{ form.description.label(class="form-label") }}
+                        {{ form.description(class="form-control", rows="5", placeholder="Describe your product in
+                        detail. Include features, condition, reason for selling, etc.") }}
+                        {% if form.description.errors %}
+                        <div class="invalid-feedback d-block">
+                            {% for error in form.description.errors %}
+                            <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                {{ form.price.label(class="form-label") }}
+                                {{ form.price(class="form-control", id="price", placeholder="0.00", step="0.01") }}
+                                {% if form.price.errors %}
+                                <div class="invalid-feedback d-block">
+                                    {% for error in form.price.errors %}
+                                    <span>{{ error }}</span>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                {{ form.category.label(class="form-label") }}
+                                {{ form.category(class="form-control") }}
+                                {% if form.category.errors %}
+                                <div class="invalid-feedback d-block">
+                                    {% for error in form.category.errors %}
+                                    <span>{{ error }}</span>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                {{ form.condition.label(class="form-label") }}
+                                {{ form.condition(class="form-control", id="condition") }}
+                                {% if form.condition.errors %}
+                                <div class="invalid-feedback d-block">
+                                    {% for error in form.condition.errors %}
+                                    <span>{{ error }}</span>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                {{ form.location.label(class="form-label") }}
+                                {{ form.location(class="form-control", placeholder="City, Area") }}
+                                {% if form.location.errors %}
+                                <div class="invalid-feedback d-block">
+                                    {% for error in form.location.errors %}
+                                    <span>{{ error }}</span>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        {{ form.image.label(class="form-label") }}
+                        {{ form.image(class="form-control", accept="image/*") }}
+                        <div class="form-text">Upload a clear photo of your product (JPG, PNG, GIF - Max 16MB)</div>
+                        {% if form.image.errors %}
+                        <div class="invalid-feedback d-block">
+                            {% for error in form.image.errors %}
+                            <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                        <div id="image-preview"></div>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        {{ form.submit(class="btn btn-primary btn-lg") }}
+                    </div>
+                </form>
+
+                <div class="text-center mt-4">
+                    <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">
+                        <i class="fas fa-arrow-left"></i> Back to Dashboard
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Function to predict price based on current form values
+    function predictPrice() {
+        const brand = document.getElementById('brand').value;
+        const category = document.getElementById('category').value;
+        const year = document.getElementById('purchase_year').value;
+        const condition = document.getElementById('condition').value;
+        const original_price = document.getElementById('original_price').value;
+        const usage = document.getElementById('usage_duration').value;
+
+        // Only predict if all required fields have values
+        if (!brand || !year || !condition || !original_price || !usage) {
+            return;
+        }
+
+        fetch('/predict_price', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                brand: brand,
+                category: category || 'Other',
+                year: year,
+                condition: condition,
+                original_price: original_price,
+                usage: usage
+            })
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (!data.error) {
+                    document.getElementById('price').value = data.predicted_price;
+                }
+            })
+            .catch(error => console.error('Error predicting price:', error));
+    }
+
+    // Manual Trigger
+    const predictBtn = document.getElementById('predictBtn');
+    if (predictBtn) {
+        predictBtn.addEventListener('click', predictPrice);
+    }
+
+    // Live Price Updates: Trigger prediction when key fields change
+    const fields = ['brand', 'purchase_year', 'condition', 'original_price', 'usage_duration', 'category'];
+    fields.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) {
+            el.addEventListener('change', predictPrice);
+            el.addEventListener('keyup', predictPrice); // For text inputs
+        }
+    });
+
+    // Image-Based Condition Detection
+    document.getElementById('image').addEventListener('change', function (e) {
+        const file = e.target.files[0];
+        if (!file) return;
+
+        // Visual feedback
+        const preview = document.getElementById('image-preview');
+        const conditionSelect = document.getElementById('condition');
+
+        preview.innerHTML = '<span class="text-info"><i class="fas fa-spinner fa-spin"></i> Analyzing image for condition...</span>';
+
+        const formData = new FormData();
+        formData.append('image', file);
+
+        fetch('/detect_condition', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    preview.innerHTML = '<span class="text-danger">Error: ' + data.error + '</span>';
+                } else {
+                    // Select the detected condition
+                    conditionSelect.value = data.condition;
+                    preview.innerHTML = '<span class="text-success"><i class="fas fa-check"></i> Image analyzed: Condition detected as <strong>' + data.condition + '</strong></span>';
+
+                    // Auto-update price based on new condition
+                    predictPrice();
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                preview.innerHTML = '<span class="text-danger">Failed to analyze image.</span>';
+            });
+    });
+</script>
+{% endblock %}

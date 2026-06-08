@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+
+{% block title %}Bill - {{ order.order_number }} - SecondHand Marketplace{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="bg-white p-4 shadow rounded">
+                <!-- Bill Header -->
+                <div class="text-center mb-4">
+                    <h2 class="text-primary">SecondHand Marketplace</h2>
+                    <p class="text-muted">Your trusted platform for buying and selling second-hand products</p>
+                    <hr>
+                    <h4>Purchase Bill</h4>
+                </div>
+                
+                <!-- Bill Details -->
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <h6>Bill Details</h6>
+                        <p>
+                            <strong>Order Number:</strong> {{ order.order_number }}<br>
+                            <strong>Date:</strong> {{ order.created_at.strftime('%B %d, %Y') }}<br>
+                            <strong>Status:</strong> 
+                            <span class="badge bg-{{ 'success' if order.status == 'completed' else 'warning' if order.status == 'pending' else 'info' if order.status == 'confirmed' else 'danger' }}">
+                                {{ order.status.title() }}
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Payment Method</h6>
+                        <p>{{ order.payment_method.replace('_', ' ').title() }}</p>
+                    </div>
+                </div>
+                
+                <!-- Buyer and Seller Information -->
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <h6>Buyer Information</h6>
+                        <p>
+                            <strong>Name:</strong> {{ order.buyer_name }}<br>
+                            <strong>Email:</strong> {{ order.buyer_email }}<br>
+                            <strong>Phone:</strong> {{ order.buyer_phone }}<br>
+                            <strong>Address:</strong> {{ order.buyer_address }}
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Seller Information</h6>
+                        <p>
+                            <strong>Name:</strong> {{ order.product.seller.name }}<br>
+                            <strong>Email:</strong> {{ order.product.seller.email }}<br>
+                            {% if order.product.seller.phone %}
+                                <strong>Phone:</strong> {{ order.product.seller.phone }}<br>
+                            {% endif %}
+                            <strong>Location:</strong> {{ order.product.seller.location }}
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Product Details -->
+                <div class="mb-4">
+                    <h6>Product Details</h6>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Description</th>
+                                    <th>Condition</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <strong>{{ order.product.title }}</strong><br>
+                                        <small class="text-muted">Category: {{ order.product.category }}</small>
+                                    </td>
+                                    <td>{{ order.product.description[:100] }}{% if order.product.description|length > 100 %}...{% endif %}</td>
+                                    <td>{{ order.product.condition }}</td>
+                                    <td>₹{{ "{:,.0f}".format(order.total_amount) }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <!-- Bill Summary -->
+                <div class="row">
+                    <div class="col-md-6 offset-md-6">
+                        <div class="table-responsive">
+                            <table class="table table-borderless">
+                                <tr>
+                                    <td><strong>Subtotal:</strong></td>
+                                    <td class="text-end">₹{{ "{:,.0f}".format(order.total_amount) }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Tax:</strong></td>
+                                    <td class="text-end">₹0.00</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Delivery:</strong></td>
+                                    <td class="text-end">As per agreement</td>
+                                </tr>
+                                <tr class="table-dark">
+                                    <td><strong>Total Amount:</strong></td>
+                                    <td class="text-end"><strong>₹{{ "{:,.0f}".format(order.total_amount) }}</strong></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+                {% if order.notes %}
+                <div class="mb-4">
+                    <h6>Additional Notes</h6>
+                    <p class="text-muted">{{ order.notes }}</p>
+                </div>
+                {% endif %}
+                
+                <!-- Terms and Conditions -->
+                <div class="mb-4">
+                    <h6>Terms and Conditions</h6>
+                    <small class="text-muted">
+                        <ul class="mb-0">
+                            <li>This is a transaction between buyer and seller facilitated by SecondHand Marketplace.</li>
+                            <li>All items are sold as-is, subject to the condition described.</li>
+                            <li>Delivery and payment terms are as agreed between buyer and seller.</li>
+                            <li>For any disputes, please contact our support team.</li>
+                        </ul>
+                    </small>
+                </div>
+                
+                <!-- Print and Download Options -->
+                <div class="text-center mt-4">
+                    <button onclick="window.print()" class="btn btn-primary me-2">
+                        <i class="fas fa-print"></i> Print Bill
+                    </button>
+                    {% if current_user.is_authenticated %}
+                        <a href="{{ url_for('my_orders') }}" class="btn btn-secondary">
+                            <i class="fas fa-arrow-left"></i> Back to Orders
+                        </a>
+                    {% endif %}
+                </div>
+                
+                <!-- Footer -->
+                <div class="text-center mt-4 pt-3 border-top">
+                    <small class="text-muted">
+                        Thank you for using SecondHand Marketplace!<br>
+                        Generated on {{ order.created_at.strftime('%B %d, %Y at %I:%M %p') }}
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+@media print {
+    .btn, .navbar, .footer {
+        display: none !important;
+    }
+    
+    .container {
+        max-width: 100% !important;
+    }
+    
+    .shadow {
+        box-shadow: none !important;
+    }
+}
+</style>
+{% endblock %}

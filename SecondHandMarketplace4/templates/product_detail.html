@@ -1,0 +1,181 @@
+{% extends "base.html" %}
+
+{% block title %}{{ product.title }} - SecondHand Marketplace{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="product-detail">
+                <!-- Product Image -->
+                <div class="text-center mb-4">
+                    {% if product.image_filename %}
+                        <img src="{{ url_for('static', filename='uploads/' + product.image_filename) }}" 
+                             alt="{{ product.title }}" 
+                             class="product-detail-image">
+                    {% else %}
+                        <img src="https://pixabay.com/get/g3ca24569dc82e190d0722f124b5966cc63effdef48f3b032b14f62bbef709a02145cebe4b2385eedb3611a2cc444661fd7f6e860ba159ed18b0f6b4842d2a829_1280.jpg" 
+                             alt="Product placeholder" 
+                             class="product-detail-image">
+                    {% endif %}
+                </div>
+                
+                <!-- Product Title and Price -->
+                <h1 class="mb-3">{{ product.title }}</h1>
+                <div class="product-detail-price">₹{{ "{:,.0f}".format(product.price) }}</div>
+                
+                <!-- Product Information -->
+                <div class="product-detail-info">
+                    <div class="info-item">
+                        <span class="info-label">Category:</span>
+                        <span class="info-value">{{ product.category }}</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Condition:</span>
+                        <span class="info-value">{{ product.condition }}</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Location:</span>
+                        <span class="info-value">{{ product.location }}</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Posted:</span>
+                        <span class="info-value">{{ product.created_at.strftime('%B %d, %Y') }}</span>
+                    </div>
+                </div>
+                
+                <!-- Product Description -->
+                <div class="mt-4">
+                    <h4>Description</h4>
+                    <p class="text-muted">{{ product.description }}</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <!-- Seller Information -->
+            <div class="seller-info">
+                <h4>Seller Information</h4>
+                <div class="d-flex align-items-center mb-3">
+                    <div class="me-3">
+                        <i class="fas fa-user-circle fa-2x text-muted"></i>
+                    </div>
+                    <div>
+                        <h6 class="mb-1">{{ product.seller.name }}</h6>
+                        <small class="text-muted">Member since {{ product.seller.created_at.strftime('%B %Y') }}</small>
+                    </div>
+                </div>
+                
+                <div class="mb-3">
+                    <i class="fas fa-map-marker-alt text-muted"></i>
+                    <span class="ms-2">{{ product.seller.location }}</span>
+                </div>
+                
+                {% if current_user.is_authenticated and current_user.id != product.user_id %}
+                    {% if product.is_available %}
+                        <a href="{{ url_for('place_order', product_id=product.id) }}" 
+                           class="btn btn-primary w-100 mb-3">
+                            <i class="fas fa-shopping-cart"></i> Buy Now
+                        </a>
+                        <div class="contact-options">
+                            <h6 class="mb-3">Or Contact Seller</h6>
+                            <a href="{{ url_for('contact_seller', product_id=product.id) }}" 
+                               class="btn btn-outline-primary w-100 mb-2">
+                                <i class="fas fa-comment"></i> Send Message
+                            </a>
+                            <a href="mailto:{{ product.seller.email }}?subject=Interested in {{ product.title }}&body=Hi {{ product.seller.name }}, I'm interested in your {{ product.title }} listed for ₹{{ product.price }}. Please let me know if it's still available." 
+                               class="btn btn-outline-success w-100 mb-2">
+                                <i class="fas fa-envelope"></i> Send Email
+                            </a>
+                            {% if product.seller.phone %}
+                                <a href="tel:{{ product.seller.phone }}" 
+                                   class="btn btn-outline-info w-100">
+                                    <i class="fas fa-phone"></i> Call {{ product.seller.phone }}
+                                </a>
+                            {% endif %}
+                        </div>
+                    {% else %}
+                        <div class="text-center">
+                            <span class="badge bg-secondary p-3">
+                                <i class="fas fa-times"></i> This item is no longer available
+                            </span>
+                        </div>
+                    {% endif %}
+                {% elif not current_user.is_authenticated %}
+                    {% if product.is_available %}
+                        <a href="{{ url_for('place_order', product_id=product.id) }}" 
+                           class="btn btn-primary w-100 mb-3">
+                            <i class="fas fa-shopping-cart"></i> Buy Now
+                        </a>
+                        <div class="contact-options">
+                            <h6 class="mb-3">Or Contact Seller</h6>
+                            <a href="{{ url_for('login') }}" 
+                               class="btn btn-outline-primary w-100 mb-2">
+                                <i class="fas fa-sign-in-alt"></i> Login to Send Message
+                            </a>
+                            <a href="mailto:{{ product.seller.email }}?subject=Interested in {{ product.title }}&body=Hi {{ product.seller.name }}, I'm interested in your {{ product.title }} listed for ₹{{ product.price }}. Please let me know if it's still available." 
+                               class="btn btn-outline-success w-100 mb-2">
+                                <i class="fas fa-envelope"></i> Send Email
+                            </a>
+                            {% if product.seller.phone %}
+                                <a href="tel:{{ product.seller.phone }}" 
+                                   class="btn btn-outline-info w-100">
+                                    <i class="fas fa-phone"></i> Call {{ product.seller.phone }}
+                                </a>
+                            {% endif %}
+                        </div>
+                    {% else %}
+                        <div class="text-center">
+                            <span class="badge bg-secondary p-3">
+                                <i class="fas fa-times"></i> This item is no longer available
+                            </span>
+                        </div>
+                    {% endif %}
+                {% endif %}
+            </div>
+            
+            <!-- Safety Tips -->
+            <div class="mt-4 p-3 bg-light rounded">
+                <h6><i class="fas fa-shield-alt text-warning"></i> Safety Tips</h6>
+                <ul class="small text-muted mb-0">
+                    <li>Meet in a public place</li>
+                    <li>Check the item before payment</li>
+                    <li>Don't share personal information</li>
+                    <li>Use secure payment methods</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Similar Products -->
+    {% if similar_products %}
+    <div class="mt-5">
+        <h3>Similar Products</h3>
+        <div class="products-grid">
+            {% for similar_product in similar_products %}
+                <a href="{{ url_for('product_detail', product_id=similar_product.id) }}" class="product-card">
+                    <div class="product-image">
+                        {% if similar_product.image_filename %}
+                            <img src="{{ url_for('static', filename='uploads/' + similar_product.image_filename) }}" 
+                                 alt="{{ similar_product.title }}" 
+                                 style="width: 100%; height: 200px; object-fit: cover;">
+                        {% else %}
+                            <img src="https://pixabay.com/get/g3ca24569dc82e190d0722f124b5966cc63effdef48f3b032b14f62bbef709a02145cebe4b2385eedb3611a2cc444661fd7f6e860ba159ed18b0f6b4842d2a829_1280.jpg" 
+                                 alt="Product placeholder" 
+                                 style="width: 100%; height: 200px; object-fit: cover;">
+                        {% endif %}
+                    </div>
+                    <div class="product-info">
+                        <h5 class="product-title">{{ similar_product.title }}</h5>
+                        <div class="product-price">₹{{ "{:,.0f}".format(similar_product.price) }}</div>
+                        <div class="product-location">
+                            <i class="fas fa-map-marker-alt"></i> {{ similar_product.location }}
+                        </div>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

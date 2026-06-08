@@ -1,0 +1,149 @@
+{% extends "base.html" %}
+
+{% block title %}My Orders - SecondHand Marketplace{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2>My Orders</h2>
+                <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Back to Dashboard
+                </a>
+            </div>
+            
+            <!-- Orders as Buyer -->
+            <div class="mb-5">
+                <h4>Orders I've Placed</h4>
+                {% if buyer_orders %}
+                    <div class="row">
+                        {% for order in buyer_orders %}
+                            <div class="col-md-6 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-start mb-2">
+                                            <h6 class="card-title">{{ order.order_number }}</h6>
+                                            <span class="badge bg-{{ 'success' if order.status == 'completed' else 'warning' if order.status == 'pending' else 'info' if order.status == 'confirmed' else 'danger' }}">
+                                                {{ order.status.title() }}
+                                            </span>
+                                        </div>
+                                        
+                                        <div class="mb-2">
+                                            <strong>{{ order.product.title }}</strong><br>
+                                            <small class="text-muted">₹{{ "{:,.0f}".format(order.total_amount) }}</small>
+                                        </div>
+                                        
+                                        <div class="mb-2">
+                                            <small class="text-muted">
+                                                <i class="fas fa-user"></i> Seller: {{ order.product.seller.name }}<br>
+                                                <i class="fas fa-clock"></i> {{ order.created_at.strftime('%b %d, %Y') }}
+                                            </small>
+                                        </div>
+                                        
+                                        <div class="d-flex gap-2">
+                                            <a href="{{ url_for('generate_bill', order_id=order.id) }}" 
+                                               class="btn btn-sm btn-primary">
+                                                <i class="fas fa-file-invoice"></i> Bill
+                                            </a>
+                                            <a href="{{ url_for('product_detail', product_id=order.product.id) }}" 
+                                               class="btn btn-sm btn-outline-secondary">
+                                                <i class="fas fa-eye"></i> Product
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    <div class="text-center py-4">
+                        <i class="fas fa-shopping-cart fa-3x text-muted mb-3"></i>
+                        <h5>No orders placed yet</h5>
+                        <p class="text-muted">When you buy products, they will appear here.</p>
+                        <a href="{{ url_for('search') }}" class="btn btn-primary">
+                            <i class="fas fa-search"></i> Browse Products
+                        </a>
+                    </div>
+                {% endif %}
+            </div>
+            
+            <!-- Orders as Seller -->
+            <div class="mb-5">
+                <h4>Orders I've Received</h4>
+                {% if seller_orders %}
+                    <div class="row">
+                        {% for order in seller_orders %}
+                            <div class="col-md-6 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-start mb-2">
+                                            <h6 class="card-title">{{ order.order_number }}</h6>
+                                            <span class="badge bg-{{ 'success' if order.status == 'completed' else 'warning' if order.status == 'pending' else 'info' if order.status == 'confirmed' else 'danger' }}">
+                                                {{ order.status.title() }}
+                                            </span>
+                                        </div>
+                                        
+                                        <div class="mb-2">
+                                            <strong>{{ order.product.title }}</strong><br>
+                                            <small class="text-muted">₹{{ "{:,.0f}".format(order.total_amount) }}</small>
+                                        </div>
+                                        
+                                        <div class="mb-2">
+                                            <small class="text-muted">
+                                                <i class="fas fa-user"></i> Buyer: {{ order.buyer_name }}<br>
+                                                <i class="fas fa-phone"></i> {{ order.buyer_phone }}<br>
+                                                <i class="fas fa-envelope"></i> {{ order.buyer_email }}<br>
+                                                <i class="fas fa-clock"></i> {{ order.created_at.strftime('%b %d, %Y') }}
+                                            </small>
+                                        </div>
+                                        
+                                        <div class="mb-2">
+                                            <form method="POST" action="{{ url_for('update_order_status', order_id=order.id) }}" class="d-inline">
+                                                <select name="status" class="form-select form-select-sm" onchange="this.form.submit()">
+                                                    <option value="pending" {{ 'selected' if order.status == 'pending' }}>Pending</option>
+                                                    <option value="confirmed" {{ 'selected' if order.status == 'confirmed' }}>Confirmed</option>
+                                                    <option value="completed" {{ 'selected' if order.status == 'completed' }}>Completed</option>
+                                                    <option value="cancelled" {{ 'selected' if order.status == 'cancelled' }}>Cancelled</option>
+                                                </select>
+                                            </form>
+                                        </div>
+                                        
+                                        <div class="d-flex gap-2">
+                                            <a href="{{ url_for('generate_bill', order_id=order.id) }}" 
+                                               class="btn btn-sm btn-primary">
+                                                <i class="fas fa-file-invoice"></i> Bill
+                                            </a>
+                                            <a href="{{ url_for('product_detail', product_id=order.product.id) }}" 
+                                               class="btn btn-sm btn-outline-secondary">
+                                                <i class="fas fa-eye"></i> Product
+                                            </a>
+                                        </div>
+                                        
+                                        {% if order.buyer_address %}
+                                        <div class="mt-2">
+                                            <small class="text-muted">
+                                                <strong>Address:</strong> {{ order.buyer_address }}
+                                            </small>
+                                        </div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    <div class="text-center py-4">
+                        <i class="fas fa-store fa-3x text-muted mb-3"></i>
+                        <h5>No orders received yet</h5>
+                        <p class="text-muted">When buyers order your products, they will appear here.</p>
+                        <a href="{{ url_for('post_ad') }}" class="btn btn-primary">
+                            <i class="fas fa-plus"></i> Post an Ad
+                        </a>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
